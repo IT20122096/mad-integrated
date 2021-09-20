@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">775983204810-lemd0qmph0cn8nd42a3q2mp5bgvu5v0o.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">775983204810</string>
+    <string name="google_api_key" translatable="false">AIzaSyA5g4n1SRjRhqlun9KL6kLc3Ngv28nddZQ</string>
+    <string name="google_app_id" translatable="false">1:775983204810:android:98bdbdae2773dca31b2733</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA5g4n1SRjRhqlun9KL6kLc3Ngv28nddZQ</string>
+    <string name="google_storage_bucket" translatable="false">madminiproject-5b026.appspot.com</string>
+    <string name="project_id" translatable="false">madminiproject-5b026</string>
+</resources>

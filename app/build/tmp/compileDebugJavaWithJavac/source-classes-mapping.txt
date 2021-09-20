@@ -1,0 +1,7 @@
+com/example/madmini/BuildConfig.java
+ com.example.madmini.BuildConfig
+com/example/madmini/it20122096/BulidPc.java
+ com.example.madmini.it20122096.BulidPc
+com/example/madmini/it20122096/DashBoard.java
+ com.example.madmini.it20122096.DashBoard
+ com.example.madmini.it20122096.DashBoard$1

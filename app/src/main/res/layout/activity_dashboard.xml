@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grayBlack">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".it20122096.DashBoard">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="355dp"
+            android:layout_height="139dp"
+            android:layout_marginStart="51dp"
+            android:layout_marginTop="69dp"
+            android:layout_marginEnd="50dp"
+            android:background="#00FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/nitrotechnew" />
+
+        <ImageButton
+            android:id="@+id/laptop_btn"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="70dp"
+            app:layout_constraintEnd_toStartOf="@+id/parts_btn"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            app:srcCompat="@drawable/icons8_laptop_100" />
+
+        <ImageButton
+            android:id="@+id/parts_btn"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            app:srcCompat="@drawable/webp_net_resizeimage1" />
+
+        <ImageButton
+            android:id="@+id/build_btn"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:srcCompat="@drawable/build__1_" />
+
+        <ImageButton
+            android:id="@+id/profile_btn"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginStart="58dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="23dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.857"
+            app:layout_constraintStart_toEndOf="@+id/build_btn"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"
+            app:srcCompat="@drawable/webp_net_resizeimage" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="123dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="42dp"
+            android:layout_marginEnd="90dp"
+            android:text="@string/home_laptop"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/textView3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/laptop_btn" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="123dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="33dp"
+            android:text="@string/home_pcparts"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/parts_btn" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="123dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="42dp"
+            android:layout_marginEnd="90dp"
+            android:text="@string/home_build"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textView5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/build_btn" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="123dp"
+            android:layout_height="56dp"
+            android:layout_marginEnd="33dp"
+            android:text="@string/home_profile"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/profile_btn" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
