@@ -8,10 +8,9 @@
         android:minSdkVersion="21"
         android:targetSdkVersion="31" />
 
-    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
     <!-- <uses-sdk android:minSdkVersion="14"/> -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -24,8 +23,44 @@
         android:testOnly="true"
         android:theme="@style/Theme.MadMini" >
         <activity
+            android:name="com.example.madmini.Quotation_Items"
+            android:exported="true"
+            android:parentActivityName="com.example.madmini.it20122096.BulidPc" >
+
+            <!--
+            The meta-data tag is required if you support API level 15
+            and lower
+            -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".it20122096.BulidPc" />
+        </activity>
+        <activity
+            android:name="com.example.madmini.it20122096.Create_Quotation"
+            android:exported="true"
+            android:parentActivityName="com.example.madmini.it20122096.BulidPc" >
+
+            <!--
+            The meta-data tag is required if you support API level 15
+            and lower
+            -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".it20122096.BulidPc" />
+        </activity>
+        <activity
             android:name="com.example.madmini.it20122096.BulidPc"
-            android:exported="true" />
+            android:exported="true"
+            android:parentActivityName="com.example.madmini.it20122096.DashBoard" >
+
+            <!--
+        The meta-data tag is required if you support API level 15
+        and lower
+            -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".it20122096.DashBoard" />
+        </activity>
         <activity
             android:name="com.example.madmini.it20122096.DashBoard"
             android:exported="true"

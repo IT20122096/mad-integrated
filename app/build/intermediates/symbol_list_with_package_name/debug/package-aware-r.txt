@@ -57,6 +57,8 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array Categories
+array Product
 attr ConstraintRotate
 attr SharedValue
 attr SharedValueId
@@ -1161,6 +1163,7 @@ color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color gray
 color grayBlack
 color highlighted_text_material_dark
 color highlighted_text_material_light
@@ -1824,8 +1827,10 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable download_application_software_button_icon_png_favpng_4f3fpg53ayteiltkak7s7ijsp_removebg_preview
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable ic_baseline_cloud_download_24
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -1879,6 +1884,7 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable screenshot__180_
+drawable selection_band_overlay
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -1986,11 +1992,16 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id build_btn
+id button4
+id button5
+id button6
 id buttonPanel
 id cache_measures
 id cancel_action
 id cancel_button
 id carryVelocity
+id cart_btn
+id cat_spinner
 id center
 id center_horizontal
 id center_vertical
@@ -2021,10 +2032,12 @@ id continuousVelocity
 id coordinator
 id cos
 id counterclockwise
+id create_btn
 id currentState
 id custom
 id customPanel
 id cut
+id d_name
 id dark
 id date_picker_actions
 id decelerate
@@ -2094,6 +2107,7 @@ id header_title
 id hideable
 id home
 id homeAsUp
+id home_btn
 id honorRequest
 id horizontal_only
 id icon
@@ -2103,6 +2117,9 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageButton
+id imageButton2
+id imageButton3
 id imageView
 id immediateStop
 id included
@@ -2123,6 +2140,7 @@ id light
 id line1
 id line3
 id linear
+id linearLayout
 id listMode
 id list_item
 id masked
@@ -2218,12 +2236,22 @@ id percent
 id pin
 id position
 id postLayout
+id product_spinner
 id profile_btn
+id profile_btn_2
 id progress_circular
 id progress_horizontal
+id q_add
+id q_delete
+id q_name
+id q_pay
+id q_price
+id q_view
 id radio
 id ratio
+id rcv1
 id rectangles
+id recyclerView
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2319,6 +2347,7 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id textView2
 id textView3
 id textView4
 id textView5
@@ -2439,7 +2468,10 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_bulid_pc
+layout activity_create_quotation
 layout activity_dashboard
+layout activity_quotation_items
+layout create_dialog
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2517,6 +2549,7 @@ layout notification_template_part_time
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
+layout single_quotation_rcv
 layout support_simple_spinner_dropdown_item
 layout test_action_chip
 layout test_chip_zero_corner_radius
@@ -2619,6 +2652,7 @@ string google_api_key
 string google_app_id
 string google_crash_reporting_api_key
 string google_storage_bucket
+string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string home_build
 string home_laptop
@@ -2691,6 +2725,7 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string pay_btn
 string pc_build
 string project_id
 string save_button
@@ -2699,6 +2734,7 @@ string spare_part
 string status_bar_notification_info_overflow
 string user_name
 string username_bildOredr
+string view_btn
 string view_button
 string view_order_button
 style AlertDialog_AppCompat

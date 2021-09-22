@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Categories">
+        <item>Pick Category</item>
+        <item>ASUS ROG</item>
+        <item>Powered by ASUS</item>
+        <item>Commercial solutions</item>
+    </string-array>
+</resources>

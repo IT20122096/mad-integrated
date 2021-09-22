@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="150dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginBottom="10dp"
+    android:background="@color/gray"
+    android:backgroundTint="@color/gray"
+    app:cardCornerRadius="10dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray"
+        android:backgroundTint="@color/gray">
+
+        <ImageButton
+            android:id="@+id/q_delete"
+            android:layout_width="66dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="1dp"
+            android:backgroundTint="#00393636"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/icons8_remove_48" />
+
+        <TextView
+            android:id="@+id/q_name"
+            android:layout_width="173dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="63dp"
+            android:text="@string/change_Qname"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/q_delete"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/q_price"
+            android:layout_width="237dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="97dp"
+            android:text="@string/Display_total"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/q_name" />
+
+        <Button
+            android:id="@+id/q_view"
+            android:layout_width="104dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="101dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/view_btn"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/q_pay"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/q_price" />
+
+        <Button
+            android:id="@+id/q_pay"
+            android:layout_width="118dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="11dp"
+            android:text="@string/pay_btn"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/q_price" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

@@ -10,8 +10,45 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MadMini">
         <activity
+            android:name=".Quotation_Items"
+            android:exported="true"
+            android:parentActivityName=".it20122096.BulidPc">
+
+            <!--
+            The meta-data tag is required if you support API level 15
+            and lower
+            -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".it20122096.BulidPc" />
+
+        </activity>
+        <activity
+            android:name=".it20122096.Create_Quotation"
+            android:exported="true"
+            android:parentActivityName=".it20122096.BulidPc">
+
+            <!--
+            The meta-data tag is required if you support API level 15
+            and lower
+            -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".it20122096.BulidPc" />
+        </activity>
+        <activity
             android:name=".it20122096.BulidPc"
-            android:exported="true" />
+            android:exported="true"
+            android:parentActivityName=".it20122096.DashBoard">
+
+            <!--
+        The meta-data tag is required if you support API level 15
+        and lower
+            -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".it20122096.DashBoard" />
+        </activity>
         <activity
             android:name=".it20122096.DashBoard"
             android:exported="true"
