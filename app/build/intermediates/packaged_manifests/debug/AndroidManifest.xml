@@ -23,7 +23,46 @@
         android:testOnly="true"
         android:theme="@style/Theme.MadMini" >
         <activity
-            android:name="com.example.madmini.Quotation_Items"
+            android:name="com.example.madmini.it20122096.Order_Details"
+            android:exported="true"
+            android:parentActivityName="com.example.madmini.it20122096.Pc_Build_Orders" >
+
+            <!--
+            The meta-data tag is required if you support API level 15
+            and lower
+            -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".it20122096.Pc_Build_Orders" />
+        </activity>
+        <activity
+            android:name="com.example.madmini.it20122096.Pc_Build_Orders"
+            android:exported="true"
+            android:parentActivityName="com.example.madmini.it20122096.Pc_Build_Orders" >
+
+            <!--
+            The meta-data tag is required if you support API level 15
+            and lower
+            -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".it20122096.Pc_Build_Orders" />
+        </activity>
+        <activity
+            android:name="com.example.madmini.it20122096.Admin_Panel"
+            android:exported="true"
+            android:parentActivityName="com.example.madmini.it20122096.DashBoard" >
+
+            <!--
+            The meta-data tag is required if you support API level 15
+            and lower
+            -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".it20122096.DashBoard" />
+        </activity>
+        <activity
+            android:name="com.example.madmini.it20122096.Add_Quotation_Item"
             android:exported="true"
             android:parentActivityName="com.example.madmini.it20122096.BulidPc" >
 
@@ -36,7 +75,7 @@
                 android:value=".it20122096.BulidPc" />
         </activity>
         <activity
-            android:name="com.example.madmini.it20122096.Create_Quotation"
+            android:name="com.example.madmini.it20122096.Quotation_Items"
             android:exported="true"
             android:parentActivityName="com.example.madmini.it20122096.BulidPc" >
 

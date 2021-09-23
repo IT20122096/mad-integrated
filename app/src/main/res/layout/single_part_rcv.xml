@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="150dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray">
+
+        <ImageView
+            android:id="@+id/p_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_launcher_background" />
+
+        <TextView
+            android:id="@+id/p_name"
+            android:layout_width="242dp"
+            android:layout_height="27dp"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="17dp"
+            android:text="@string/name"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/p_img"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/p_price"
+            android:layout_width="165dp"
+            android:layout_height="33dp"
+            android:layout_marginStart="9dp"
+            android:layout_marginEnd="14dp"
+            android:text="@string/Amount"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toStartOf="@+id/p_add_btn"
+            app:layout_constraintStart_toEndOf="@+id/p_img"
+            app:layout_constraintTop_toBottomOf="@+id/p_name" />
+
+        <ImageButton
+            android:id="@+id/p_add_btn"
+            android:layout_width="76dp"
+            android:layout_height="62dp"
+            android:backgroundTint="#00FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/p_name"
+            app:srcCompat="@drawable/icons8_add_62" />
+
+        <Button
+            android:id="@+id/increment_btn"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="7dp"
+            android:text="@string/Increment_button"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/p_img"
+            app:layout_constraintTop_toBottomOf="@+id/p_price" />
+
+        <Button
+            android:id="@+id/decrement_btn"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="8dp"
+            android:enabled="false"
+            android:text="@string/decrement_button"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/p_add_btn"
+            app:layout_constraintTop_toBottomOf="@+id/p_price" />
+
+        <TextView
+            android:id="@+id/p_quantity"
+            android:layout_width="55dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="11dp"
+            android:text="10"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toStartOf="@+id/decrement_btn"
+            app:layout_constraintStart_toEndOf="@+id/increment_btn"
+            app:layout_constraintTop_toBottomOf="@+id/p_price" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

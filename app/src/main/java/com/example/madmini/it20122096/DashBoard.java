@@ -8,7 +8,6 @@ import android.view.View;
 import android.widget.ImageButton;
 
 import com.example.madmini.R;
-import com.example.madmini.it20122096.BulidPc;
 
 public class DashBoard extends AppCompatActivity {
 
@@ -30,6 +29,12 @@ public class DashBoard extends AppCompatActivity {
 
               startActivity(new Intent(getApplicationContext(), BulidPc.class));
 
+            }
+        });
+        profile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(DashBoard.this, Admin_Panel.class));
             }
         });
     }

@@ -27,7 +27,7 @@
     <string name="orders_button">ORDERS</string>
     <string name="view_order_button">VIEW ORDER</string>
     <string name="view_button">VIEW</string>
-    <string name="user_name">Chamath123</string>
+    <string name="user_name">Name Of the Client</string>
     <string name="complete_botton">COMPLETE</string>
     <string name="username_bildOredr">Chamath123 Build Order</string>
     <string name="address">Address :</string>
@@ -39,4 +39,9 @@
     <string name="view_btn">VIEW</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">NAME</string>
+    <string name="date_edit">On : xx/xx/xxxx</string>
+    <string name="download">Download</string>
+    <string name="order_date">Date : </string>
+    <string name="order_text">s\' Build Request</string>
 </resources>

@@ -4,14 +4,14 @@ import java.io.Serializable;
 
 public class Quotations implements Serializable {
     String name;
-    Float total;
+    double total;
     String id;
 
 
     public Quotations() {
     }
 
-    public Quotations(String name, Float total, String id) {
+    public Quotations(String name, double total, String id) {
         this.name = name;
         this.total = total;
         this.id=id;
@@ -26,11 +26,11 @@ public class Quotations implements Serializable {
         this.name = name;
     }
 
-    public Float getTotal() {
+    public double getTotal() {
         return total;
     }
 
-    public void setTotal(Float total) {
+    public void setTotal(double total) {
         this.total = total;
     }
 

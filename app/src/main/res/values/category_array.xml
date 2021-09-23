@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="Categories">
-        <item>Pick Category</item>
-        <item>ASUS ROG</item>
-        <item>Powered by ASUS</item>
-        <item>Commercial solutions</item>
+    <string-array name="menu_items" >
+        <item >Demo Mode</item>
+        <item >Inbox</item>
+        <item >Sent Items</item>
+        <item >Filing History</item>
+    </string-array>
+
+    <string-array name="menu_items_labels" >
+        <item ><FONT COLOR="#2636cc"><b>Demo Mode</b></FONT></item>
+        <item ><FONT COLOR="#006600"><b>Inbox</b></FONT></item>
+        <item ><FONT COLOR="#006600"><b>Sent Items</b></FONT></item>
+        <item ><FONT COLOR="#006600"><b>Filing History</b></FONT></item>
     </string-array>
 </resources>

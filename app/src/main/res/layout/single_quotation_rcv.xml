@@ -7,24 +7,23 @@
     android:layout_marginStart="20dp"
     android:layout_marginBottom="10dp"
     android:background="@color/gray"
-    android:backgroundTint="@color/gray"
+
     app:cardCornerRadius="10dp">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/gray"
-        android:backgroundTint="@color/gray">
+        android:background="@color/gray">
 
         <ImageButton
             android:id="@+id/q_delete"
-            android:layout_width="66dp"
-            android:layout_height="54dp"
-            android:layout_marginTop="1dp"
+            android:layout_width="54dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="4dp"
             android:backgroundTint="#00393636"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/icons8_remove_48" />
+            app:srcCompat="@drawable/icons8_delete_bin_48" />
 
         <TextView
             android:id="@+id/q_name"
