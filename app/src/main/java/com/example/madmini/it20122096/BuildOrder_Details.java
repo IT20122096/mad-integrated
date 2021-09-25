@@ -3,7 +3,6 @@ package com.example.madmini.it20122096;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.annotation.SuppressLint;
@@ -18,17 +17,12 @@ import android.widget.Toast;
 import com.example.madmini.R;
 import com.example.madmini.it20122096.RcvAdapters.Quotation_List_Adapter;
 import com.example.madmini.it20122096.models.Orders;
-import com.example.madmini.it20122096.models.Q_Items;
-import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
 import com.orhanobut.dialogplus.DialogPlus;
 import com.orhanobut.dialogplus.ViewHolder;
-
-import java.util.HashMap;
 
 public class BuildOrder_Details extends AppCompatActivity {
 
@@ -44,7 +38,7 @@ public class BuildOrder_Details extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_oreder_details);
+        setContentView(R.layout.it20122096_activity_oreder_details);
 
         od_name=(TextView)findViewById(R.id.od_name);
         od_address=(TextView)findViewById(R.id.od_address);
@@ -69,7 +63,7 @@ public class BuildOrder_Details extends AppCompatActivity {
             public void onClick(View view) {
 
               final DialogPlus dialogPlus =DialogPlus.newDialog(BuildOrder_Details.this)
-                        .setContentHolder(new ViewHolder(R.layout.slip_display_dialogplus))
+                        .setContentHolder(new ViewHolder(R.layout.it20122096_slip_display_dialogplus))
                         .setExpanded(true,1020)
                         .create();
                 View view1 =dialogPlus.getHolderView();
@@ -95,7 +89,7 @@ public class BuildOrder_Details extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 final DialogPlus dialogPlus =DialogPlus.newDialog(BuildOrder_Details.this)
-                        .setContentHolder(new ViewHolder(R.layout.display_quotation))
+                        .setContentHolder(new ViewHolder(R.layout.it20122096_display_quotation))
                         .setExpanded(true,1300)
                         .create();
                 View view2 =dialogPlus.getHolderView();

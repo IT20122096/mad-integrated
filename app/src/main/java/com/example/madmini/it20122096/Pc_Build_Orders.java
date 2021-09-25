@@ -23,7 +23,7 @@ public class Pc_Build_Orders extends AppCompatActivity implements Build_Order_Rc
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.activity_pc_build_orders);
+        setContentView(R.layout.it20122096_activity_pc_build_orders);
 
         ActionBar actionBar =getSupportActionBar();
         getSupportActionBar().setTitle("PC Build Orders");

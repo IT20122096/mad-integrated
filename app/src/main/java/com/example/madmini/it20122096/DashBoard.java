@@ -8,6 +8,10 @@ import android.view.View;
 import android.widget.ImageButton;
 
 import com.example.madmini.R;
+import com.example.madmini.it20115302.spare_parts_comp.ShowSpareParts;
+import com.example.madmini.it20115302.spare_parts_comp.ViewAllSpareParts;
+import com.example.madmini.it20122614.ProfileActivity;
+import com.example.madmini.it20122614.RegisterActivity;
 
 public class DashBoard extends AppCompatActivity {
 
@@ -16,7 +20,7 @@ public class DashBoard extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_dashboard);
+        setContentView(R.layout.it20122096_activity_dashboard);
 
         laptop =(ImageButton) findViewById(R.id.laptop_btn);
         parts =(ImageButton) findViewById(R.id.parts_btn);
@@ -34,7 +38,14 @@ public class DashBoard extends AppCompatActivity {
         profile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(DashBoard.this, Admin_Panel.class));
+                startActivity(new Intent(DashBoard.this, ProfileActivity.class));
+            }
+        });
+
+        parts.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(DashBoard.this, ShowSpareParts.class));
             }
         });
     }

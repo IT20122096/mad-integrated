@@ -36,7 +36,7 @@ public class Quotation_List_Adapter extends FirebaseRecyclerAdapter<Q_Items,Quot
     @NonNull
     @Override
     public viewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.single_quotation_item_rcv,parent,false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.it20122096_single_quotation_item_rcv,parent,false);
         return new viewHolder(view);
     }
 

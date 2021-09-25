@@ -46,4 +46,46 @@
     <string name="order_text">s\' Build Request</string>
     <string name="slip">Payment Slip</string>
     <string name="q_items">Quotation Items</string>
+    <string name="add_image">Add Image</string>
+    <string name="add_spare_part">Add Spare Part</string>
+    <string name="update_spare_part">Update Spare Part</string>
+    <string name="delete_spare_part">Delete Spare Part</string>
+    <string name="edit">Edit</string>
+    <string name="remove">Remove</string>
+    <string name="cancel">Cancel</string>
+    <string name="add_cart">Add to cart</string>
+    <string name="brand">Brand</string>
+    <string name="model">Model</string>
+    <string name="price">Price</string>
+    <string name="description">Description</string>
+
+
+    <string name="myPartId">My Part</string>
+    <string name="editTextTextEmailAddressid">Email Address</string>
+    <string name="editTextTextPasswordId">Password</string>
+    <string name="buttonSignUpId">Sign Up</string>
+    <string name="textViewSignInId">Sign In</string>
+    <string name="buttonLoginId">Sign In</string>
+    <string name="textView2SignInId">Sign Up</string>
+    <string name="buttonEditProfile">Edit Profile</string>
+    <string name="buttonWishList">Wish List</string>
+    <string name="buttonAddressBook">Address Book</string>
+    <string name="textViewAddressId">Enter your address here</string>
+    <string name="textViewContactNumberId">Enter your contact number here</string>
+    <string name="editTextTextMultiLineAddress">Address</string>
+    <string name="editTextPhoneContact">Contact number...</string>
+    <string name="buttonAddressBookContact">Save</string>
+    <string name="textViewConfirmChange">Enter your new password here...</string>
+    <string name="buttonUpdatePasswordId">Update</string>
+    <string name="button2DeleteAccount">Delete Account</string>
+    <string name="editTextTextPersonName">Name</string>
+    <string name="textViewCheckOutBtn">CheckOut</string>
+    <string name="textView7PaymentId">Payment</string>
+    <string name="textView8AccountNumberId">Account Number</string>
+    <string name="textView10AccountNum">000458500452</string>
+    <string name="textView12Branch">Malabe</string>
+    <string name="buttonAttachImageId">Attach</string>
+    <string name="textView16InterfaceId">Payment Interface under \"NitroTech Ltd.\"</string>
+    <string name="button2ConfimPaymentId">confirm</string>
+    <string name="buttonAdmin">Admin</string>
 </resources>

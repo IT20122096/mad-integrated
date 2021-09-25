@@ -11,6 +11,6 @@ public class PartOrder_Details extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_part_order_details);
+        setContentView(R.layout.it20122096_activity_part_order_details);
     }
 }

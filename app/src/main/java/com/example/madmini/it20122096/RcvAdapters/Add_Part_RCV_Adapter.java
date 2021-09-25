@@ -18,12 +18,10 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.madmini.R;
 import com.example.madmini.it20122096.models.Parts;
-import com.example.madmini.it20122096.models.Q_Items;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
-import com.google.android.gms.tasks.Task;
 import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.HashMap;
@@ -117,7 +115,7 @@ public class Add_Part_RCV_Adapter extends FirebaseRecyclerAdapter<Parts,Add_Part
     @NonNull
     @Override
     public viewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view= LayoutInflater.from(parent.getContext()).inflate(R.layout.single_part_rcv,parent,false);
+        View view= LayoutInflater.from(parent.getContext()).inflate(R.layout.it20122096_single_part_rcv,parent,false);
         return new viewHolder(view);
     }
 

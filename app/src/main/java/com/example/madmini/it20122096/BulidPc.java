@@ -36,7 +36,7 @@ public class BulidPc extends AppCompatActivity implements CreateDialog.DialogLis
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_bulid_pc);
+        setContentView(R.layout.it20122096_activity_bulid_pc);
         ActionBar act = getSupportActionBar();
         getSupportActionBar().setTitle("Build Your PC");
 

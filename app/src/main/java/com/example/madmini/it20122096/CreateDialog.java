@@ -25,7 +25,7 @@ public class CreateDialog extends AppCompatDialogFragment {
     public Dialog onCreateDialog(@Nullable Bundle savedInstanceState) {
         AlertDialog.Builder builder =new AlertDialog.Builder(getActivity());
         LayoutInflater inflater =getActivity().getLayoutInflater();
-        View view =inflater.inflate(R.layout.create_dialog,null);
+        View view =inflater.inflate(R.layout.it20122096_create_dialog,null);
 
         builder.setView(view)
                 .setTitle("Create Quotation")

@@ -13,10 +13,7 @@ import android.widget.Spinner;
 
 import com.example.madmini.R;
 import com.example.madmini.it20122096.RcvAdapters.Add_Part_RCV_Adapter;
-import com.example.madmini.it20122096.RcvAdapters.Quotation_item_Rcv_Adapter;
 import com.example.madmini.it20122096.models.Parts;
-import com.example.madmini.it20122096.models.Q_Items;
-import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -31,7 +28,7 @@ public class Add_Quotation_Item extends AppCompatActivity implements AdapterView
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_add_quotation_item);
+        setContentView(R.layout.it20122096_activity_add_quotation_item);
 
         cat_spinner1=(Spinner) findViewById(R.id.cat_spinner1);
         cat_spinner1.setOnItemSelectedListener(this);

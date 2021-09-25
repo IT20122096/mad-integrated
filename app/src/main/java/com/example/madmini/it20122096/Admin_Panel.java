@@ -17,7 +17,7 @@ public class Admin_Panel extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_admin_panel);
+        setContentView(R.layout.it20122096_activity_admin_panel);
 
         ActionBar actionBar =getSupportActionBar();
         getSupportActionBar().setTitle("Admin Panel");

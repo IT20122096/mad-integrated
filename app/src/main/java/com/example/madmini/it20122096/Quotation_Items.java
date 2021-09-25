@@ -36,7 +36,7 @@ public class Quotation_Items extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_quotation_items);
+        setContentView(R.layout.it20122096_activity_quotation_items);
         ActionBar actionBar= getSupportActionBar();
         actionBar.setTitle("Quotation Items");
 

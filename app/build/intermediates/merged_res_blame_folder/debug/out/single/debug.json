@@ -4,16 +4,16 @@
         "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\drawable-v24\\icons8_laptop_100.png"
     },
     {
+        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\menu_option_spare_parts_menu.xml.flat",
+        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\menu\\option_spare_parts_menu.xml"
+    },
+    {
         "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\drawable_icons8_delete_bin_48.png.flat",
         "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\drawable\\icons8_delete_bin_48.png"
     },
     {
         "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_screenshot__180_.png.flat",
         "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\drawable-v24\\screenshot__180_.png"
-    },
-    {
-        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_create_dialog.xml.flat",
-        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\create_dialog.xml"
     },
     {
         "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_webp_net_resizeimage1.jpg.flat",
@@ -24,44 +24,80 @@
         "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\drawable-v24\\icons8_remove_36.png"
     },
     {
-        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_oreder_details.xml.flat",
-        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\activity_oreder_details.xml"
+        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_it20122096_activity_bulid_pc.xml.flat",
+        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\it20122096_activity_bulid_pc.xml"
     },
     {
-        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_slip_display_dialogplus.xml.flat",
-        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\slip_display_dialogplus.xml"
+        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\drawable_signuppp.png.flat",
+        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\drawable\\signuppp.png"
+    },
+    {
+        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_it20122614_activity_profile.xml.flat",
+        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\it20122614_activity_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_show_spare_parts.xml.flat",
+        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\activity_show_spare_parts.xml"
+    },
+    {
+        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_it20122096_single_quotation_item_rcv.xml.flat",
+        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\it20122096_single_quotation_item_rcv.xml"
     },
     {
         "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_pc_build_orders.xml.flat",
-        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\activity_pc_build_orders.xml"
+        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\drawable_spare_parts_cover.png.flat",
+        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\drawable\\spare_parts_cover.png"
     },
     {
         "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_icons8_remove_48.png.flat",
         "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\drawable-v24\\icons8_remove_48.png"
     },
     {
+        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_it20122096_activity_add_quotation_item.xml.flat",
+        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\it20122096_activity_add_quotation_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_add_spare_part.xml.flat",
+        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\activity_add_spare_part.xml"
+    },
+    {
         "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_single_build_order_rcv.xml.flat",
-        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\single_build_order_rcv.xml"
+        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_it20122096_display_quotation.xml.flat",
+        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\it20122096_display_quotation.xml"
     },
     {
-        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_part_order_details.xml.flat",
-        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\activity_part_order_details.xml"
+        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_it20122614_activity_payment.xml.flat",
+        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\it20122614_activity_payment.xml"
     },
     {
         "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\drawable_icons8_add_52.png.flat",
         "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\drawable\\icons8_add_52.png"
     },
     {
+        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_order.xml.flat",
+        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\order.xml"
+    },
+    {
+        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_it20122096_single_quotation_rcv.xml.flat",
+        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\it20122096_single_quotation_rcv.xml"
+    },
+    {
         "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\drawable_spare_parts.jpg.flat",
+        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\drawable\\spare_parts.jpg"
+    },
+    {
+        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_it20122096_activity_admin_panel.xml.flat",
+        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\it20122096_activity_admin_panel.xml"
     },
     {
         "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\drawable_icons8_download_48.png.flat",
@@ -76,6 +112,10 @@
         "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
+        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_it20122096_single_part_rcv.xml.flat",
+        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\it20122096_single_part_rcv.xml"
+    },
+    {
         "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_delete_24.xml.flat",
         "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\drawable\\ic_baseline_delete_24.xml"
     },
@@ -88,20 +128,20 @@
         "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\drawable\\icons8_add_62.png"
     },
     {
-        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_add_quotation_item.xml.flat",
-        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\activity_add_quotation_item.xml"
+        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_update_spare_part.xml.flat",
+        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\activity_update_spare_part.xml"
     },
     {
         "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_single_part_rcv.xml.flat",
-        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\single_part_rcv.xml"
+        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_it20122096_single_quotation_list_item.xml.flat",
+        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\it20122096_single_quotation_list_item.xml"
     },
     {
-        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_single_quotation_list_item.xml.flat",
-        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\single_quotation_list_item.xml"
+        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\drawable_signupp.png.flat",
+        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\drawable\\signupp.png"
     },
     {
         "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\drawable_nitrotechlogo.png.flat",
@@ -112,10 +152,6 @@
         "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\drawable\\nitrotechnew.png"
     },
     {
-        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_admin_panel.xml.flat",
-        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\activity_admin_panel.xml"
-    },
-    {
         "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
     },
@@ -124,20 +160,28 @@
         "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_single_quotation_item_rcv.xml.flat",
-        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\single_quotation_item_rcv.xml"
+        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_it20122096_activity_part_order_details.xml.flat",
+        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\it20122096_activity_part_order_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\drawable_loginout.png.flat",
+        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\drawable\\loginout.png"
     },
     {
         "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_icons8_home_page_96.png.flat",
         "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\drawable-v24\\icons8_home_page_96.png"
     },
     {
-        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_dashboard.xml.flat",
-        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\activity_dashboard.xml"
+        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_it20122096_single_build_order_rcv.xml.flat",
+        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\it20122096_single_build_order_rcv.xml"
     },
     {
         "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_icons8_shopping_cart_48.png.flat",
         "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\drawable-v24\\icons8_shopping_cart_48.png"
+    },
+    {
+        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\drawable_home.png.flat",
+        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\drawable\\home.png"
     },
     {
         "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
@@ -152,20 +196,24 @@
         "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\drawable-v24\\icons8_female_profile_48.png"
     },
     {
+        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_it20122614_activity_edit_profile.xml.flat",
+        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\it20122614_activity_edit_profile.xml"
+    },
+    {
         "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_it20122096_activity_dashboard.xml.flat",
+        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\it20122096_activity_dashboard.xml"
     },
     {
         "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_single_quotation_rcv.xml.flat",
-        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\single_quotation_rcv.xml"
-    },
-    {
-        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_quotation_items.xml.flat",
-        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\activity_quotation_items.xml"
+        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\drawable_profileclip.png.flat",
+        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\drawable\\profileclip.png"
     },
     {
         "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
@@ -174,6 +222,22 @@
     {
         "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\drawable_icons8_add_35.png.flat",
         "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\drawable\\icons8_add_35.png"
+    },
+    {
+        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_it20122096_activity_pc_build_orders.xml.flat",
+        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\it20122096_activity_pc_build_orders.xml"
+    },
+    {
+        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_it20122614_activity_cart.xml.flat",
+        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\it20122614_activity_cart.xml"
+    },
+    {
+        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_it20122096_activity_oreder_details.xml.flat",
+        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\it20122096_activity_oreder_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_layout_item_spare_part_client.xml.flat",
+        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\layout_item_spare_part_client.xml"
     },
     {
         "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_build__1_.png.flat",
@@ -188,20 +252,36 @@
         "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\drawable\\icons8_download.gif"
     },
     {
-        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_layout_item_spare_part.xml.flat",
+        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\layout_item_spare_part.xml"
     },
     {
-        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_display_quotation.xml.flat",
-        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\display_quotation.xml"
+        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\drawable_download_application_software_button_icon_png_favpng_4f3fpg53ayteiltkak7s7ijsp_removebg_preview.png.flat",
         "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\drawable\\download_application_software_button_icon_png_favpng_4f3fpg53ayteiltkak7s7ijsp_removebg_preview.png"
     },
     {
+        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\drawable_female.png.flat",
+        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\drawable\\female.png"
+    },
+    {
         "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_it20122614_activity_login.xml.flat",
+        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\it20122614_activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_it20122614_activity_address_book.xml.flat",
+        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\it20122614_activity_address_book.xml"
+    },
+    {
+        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_it20122096_create_dialog.xml.flat",
+        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\it20122096_create_dialog.xml"
     },
     {
         "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_cloud_download_24.xml.flat",
@@ -212,6 +292,18 @@
         "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\drawable\\icons8_delete_bin_50.png"
     },
     {
+        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_it20122096_activity_quotation_items.xml.flat",
+        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\it20122096_activity_quotation_items.xml"
+    },
+    {
+        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_it20122614_activity_register.xml.flat",
+        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\it20122614_activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\drawable_shopping.png.flat",
+        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\drawable\\shopping.png"
+    },
+    {
         "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\drawable_icons8_delete_62.png.flat",
         "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\drawable\\icons8_delete_62.png"
     },
@@ -220,16 +312,24 @@
         "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\drawable-v24\\icons8_edit_48.png"
     },
     {
-        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_bulid_pc.xml.flat",
-        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\activity_bulid_pc.xml"
-    },
-    {
         "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\drawable-v24\\ic_launcher_background.xml"
     },
     {
         "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_webp_net_resizeimage.png.flat",
         "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\drawable-v24\\webp_net_resizeimage.png"
+    },
+    {
+        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\drawable_signupmad.png.flat",
+        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\drawable\\signupmad.png"
+    },
+    {
+        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_view_all_spare_parts.xml.flat",
+        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\activity_view_all_spare_parts.xml"
+    },
+    {
+        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_it20122096_slip_display_dialogplus.xml.flat",
+        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\it20122096_slip_display_dialogplus.xml"
     },
     {
         "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_icons8_download_48.png.flat",
