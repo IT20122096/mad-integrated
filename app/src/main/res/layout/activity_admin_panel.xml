@@ -46,7 +46,7 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/lap_add_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="50dp"
                 android:layout_marginStart="15dp"
@@ -56,7 +56,7 @@
                 android:textSize="16sp" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/lap_edit_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="50dp"
                 android:layout_marginStart="15dp"
@@ -66,7 +66,7 @@
                 android:textSize="16sp" />
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/laptop_order_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="50dp"
                 android:layout_marginStart="15dp"
@@ -111,7 +111,7 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/button4"
+                    android:id="@+id/part_add_btn"
                     android:layout_width="wrap_content"
                     android:layout_height="50dp"
                     android:layout_marginStart="15dp"
@@ -121,7 +121,7 @@
                     android:textSize="16sp" />
 
                 <Button
-                    android:id="@+id/button5"
+                    android:id="@+id/part_edit_btn"
                     android:layout_width="wrap_content"
                     android:layout_height="50dp"
                     android:layout_marginStart="15dp"
@@ -131,7 +131,7 @@
                     android:textSize="16sp" />
 
                 <Button
-                    android:id="@+id/button6"
+                    android:id="@+id/part_order_btn"
                     android:layout_width="wrap_content"
                     android:layout_height="50dp"
                     android:layout_marginStart="15dp"

@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MadMini">
         <activity
-            android:name=".it20122096.Order_Details"
+            android:name=".it20122096.PartOrder_Details"
             android:exported="true"
             android:parentActivityName=".it20122096.Pc_Build_Orders">
 
@@ -24,6 +24,19 @@
 
         </activity>
         <activity
+            android:name=".it20122096.BuildOrder_Details"
+            android:exported="true"
+            android:parentActivityName=".it20122096.Pc_Build_Orders">
+
+            <!--
+            The meta-data tag is required if you support API level 15
+            and lower
+            -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".it20122096.Pc_Build_Orders" />
+        </activity>
+        <activity
             android:name=".it20122096.Pc_Build_Orders"
             android:exported="true"
             android:parentActivityName=".it20122096.Pc_Build_Orders">
@@ -35,7 +48,6 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".it20122096.Pc_Build_Orders" />
-
         </activity>
         <activity
             android:name=".it20122096.Admin_Panel"

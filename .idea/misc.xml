@@ -13,15 +13,19 @@
         <entry key="..\:/Users/chama/AndroidStudioProjects/MadMini/app/src/main/res/layout/activity_dashboard.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/chama/AndroidStudioProjects/MadMini/app/src/main/res/layout/activity_main.xml" value="0.1983695652173913" />
         <entry key="..\:/Users/chama/AndroidStudioProjects/MadMini/app/src/main/res/layout/activity_oreder_details.xml" value="0.264" />
+        <entry key="..\:/Users/chama/AndroidStudioProjects/MadMini/app/src/main/res/layout/activity_part_order_details.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/chama/AndroidStudioProjects/MadMini/app/src/main/res/layout/activity_pc_build_orders.xml" value="0.21981981981981982" />
         <entry key="..\:/Users/chama/AndroidStudioProjects/MadMini/app/src/main/res/layout/activity_quotation_items.xml" value="0.21981981981981982" />
         <entry key="..\:/Users/chama/AndroidStudioProjects/MadMini/app/src/main/res/layout/activity_qutation_items.xml" value="0.21981981981981982" />
         <entry key="..\:/Users/chama/AndroidStudioProjects/MadMini/app/src/main/res/layout/create_dialog.xml" value="0.21981981981981982" />
         <entry key="..\:/Users/chama/AndroidStudioProjects/MadMini/app/src/main/res/layout/create_slip_dialog.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/chama/AndroidStudioProjects/MadMini/app/src/main/res/layout/display_image.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/chama/AndroidStudioProjects/MadMini/app/src/main/res/layout/single_build_order_rcv.xml" value="0.21981981981981982" />
         <entry key="..\:/Users/chama/AndroidStudioProjects/MadMini/app/src/main/res/layout/single_part_rcv.xml" value="0.264" />
         <entry key="..\:/Users/chama/AndroidStudioProjects/MadMini/app/src/main/res/layout/single_quotation_item_rcv.xml" value="0.264" />
+        <entry key="..\:/Users/chama/AndroidStudioProjects/MadMini/app/src/main/res/layout/single_quotation_list_item.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/chama/AndroidStudioProjects/MadMini/app/src/main/res/layout/single_quotation_rcv.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/chama/AndroidStudioProjects/MadMini/app/src/main/res/layout/slip_display_dialogplus.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>

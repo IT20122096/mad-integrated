@@ -44,4 +44,6 @@
     <string name="download">Download</string>
     <string name="order_date">Date : </string>
     <string name="order_text">s\' Build Request</string>
+    <string name="slip">Payment Slip</string>
+    <string name="q_items">Quotation Items</string>
 </resources>

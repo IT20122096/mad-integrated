@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/grayBlack"
-    tools:context=".it20122096.Order_Details"><![CDATA[
+    tools:context=".it20122096.BuildOrder_Details"><![CDATA[
 
 
         android:layout_width="match_parent"

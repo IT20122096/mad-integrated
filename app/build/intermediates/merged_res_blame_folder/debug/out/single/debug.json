@@ -28,6 +28,10 @@
         "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\activity_oreder_details.xml"
     },
     {
+        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_slip_display_dialogplus.xml.flat",
+        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\slip_display_dialogplus.xml"
+    },
+    {
         "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
     },
@@ -46,6 +50,10 @@
     {
         "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_single_build_order_rcv.xml.flat",
         "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\single_build_order_rcv.xml"
+    },
+    {
+        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_part_order_details.xml.flat",
+        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\activity_part_order_details.xml"
     },
     {
         "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\drawable_icons8_add_52.png.flat",
@@ -92,6 +100,10 @@
         "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\single_part_rcv.xml"
     },
     {
+        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_single_quotation_list_item.xml.flat",
+        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\single_quotation_list_item.xml"
+    },
+    {
         "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\drawable_nitrotechlogo.png.flat",
         "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\drawable\\nitrotechlogo.png"
     },
@@ -104,12 +116,12 @@
         "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\activity_admin_panel.xml"
     },
     {
-        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
-    },
-    {
         "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_single_quotation_item_rcv.xml.flat",
@@ -178,6 +190,10 @@
     {
         "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_display_quotation.xml.flat",
+        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\display_quotation.xml"
     },
     {
         "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\drawable_download_application_software_button_icon_png_favpng_4f3fpg53ayteiltkak7s7ijsp_removebg_preview.png.flat",

@@ -11,7 +11,6 @@ import android.os.Bundle;
 import com.example.madmini.R;
 import com.example.madmini.it20122096.RcvAdapters.Build_Order_Rcv_Adapter;
 import com.example.madmini.it20122096.models.Orders;
-import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -54,6 +53,6 @@ public class Pc_Build_Orders extends AppCompatActivity implements Build_Order_Rc
 
     @Override
     public void selectedOrder(Orders orders) {
-        startActivity(new Intent(Pc_Build_Orders.this,Order_Details.class).putExtra("Orders",orders));
+        startActivity(new Intent(Pc_Build_Orders.this, BuildOrder_Details.class).putExtra("Orders",orders));
     }
 }

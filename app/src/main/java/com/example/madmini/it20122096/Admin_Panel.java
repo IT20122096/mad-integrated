@@ -12,7 +12,7 @@ import com.example.madmini.R;
 
 public class Admin_Panel extends AppCompatActivity {
 
-    Button pc_build_btn;
+    Button pc_build_btn,part_edit_btn,part_add_btn,part_order_btn,lap_edit_btn,lap_add_btn,laptop_order_btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,5 +29,17 @@ public class Admin_Panel extends AppCompatActivity {
                 startActivity(new Intent(Admin_Panel.this, Pc_Build_Orders.class));
             }
         });
+
+        part_order_btn=(Button) findViewById(R.id.part_order_btn);
+        part_order_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Admin_Panel.this, PartOrder_Details.class));
+            }
+        });
+
+
+
+
     }
 }

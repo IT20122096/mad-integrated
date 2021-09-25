@@ -106,11 +106,12 @@ public class Add_Part_RCV_Adapter extends FirebaseRecyclerAdapter<Parts,Add_Part
                                 Toast.makeText(context,"Couldn't Add the Item",Toast.LENGTH_LONG).show();
                             }
                         });
+                count=1;
 
 
             }
         });
-
+          System.out.println(max_quantity);
     }
 
     @NonNull
