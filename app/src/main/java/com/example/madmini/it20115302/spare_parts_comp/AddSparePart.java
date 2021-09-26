@@ -12,7 +12,7 @@ import android.widget.Toast;
 import com.example.madmini.R;
 
 import com.example.madmini.it20122096.DashBoard;
-//import com.example.madmini.it20115302.models.SparePart;
+//import com.example.madmini.it20115302.SparePart;
 
 public class AddSparePart extends AppCompatActivity {
 

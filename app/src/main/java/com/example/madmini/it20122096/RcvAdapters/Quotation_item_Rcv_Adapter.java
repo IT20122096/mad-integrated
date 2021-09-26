@@ -25,8 +25,6 @@ import com.google.firebase.database.FirebaseDatabase;
 
 public class Quotation_item_Rcv_Adapter extends FirebaseRecyclerAdapter<Q_Items, Quotation_item_Rcv_Adapter.viewHolder> {
 
-    int count=1;
-    int max_quantity;
 
     public Quotation_item_Rcv_Adapter(@NonNull FirebaseRecyclerOptions<Q_Items> options) {
         super(options);
@@ -36,41 +34,12 @@ public class Quotation_item_Rcv_Adapter extends FirebaseRecyclerAdapter<Q_Items,
     @Override
     protected void onBindViewHolder(@NonNull viewHolder holder, @SuppressLint("RecyclerView") final int position, @NonNull final Q_Items model) {
 
-        max_quantity=model.getQuantity();
-        count=max_quantity;
+
 
         holder.i_name.setText(model.getName());
         holder.i_price.setText("LKR : "+model.getPrice()+"0");
-        holder.i_quantity.setText(count+"");
-        holder.inc_btn.setOnClickListener(new View.OnClickListener() {
-            @SuppressLint("SetTextI18n")
-            @RequiresApi(api = Build.VERSION_CODES.S)
-            @Override
-            public void onClick(View view) {
+        holder.i_quantity.setText(model.getQuantity()+"");
 
-                if(count>=max_quantity){
-                    holder.inc_btn.setEnabled(false);
-                }
-                else {
-                    holder.i_quantity.setText(++count+"");
-                    holder.dec_btn.setEnabled(true);System.out.println("c-"+count);
-                }
-            }
-        });
-        holder.dec_btn.setOnClickListener(new View.OnClickListener() {
-            @SuppressLint("SetTextI18n")
-            @Override
-            public void onClick(View view) {
-                if(count<=1){
-                    holder.i_quantity.setText(1+"");
-                    holder.dec_btn.setEnabled(false);
-                }
-                else {
-                    holder.i_quantity.setText(--count+"");
-                    holder.inc_btn.setEnabled(true);
-                }
-            }
-        });
         holder.delete.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -107,9 +76,8 @@ public class Quotation_item_Rcv_Adapter extends FirebaseRecyclerAdapter<Q_Items,
 
     class viewHolder extends RecyclerView.ViewHolder{
 
-        TextView i_name,i_price,i_quantity;
+        TextView i_name,i_price,i_quantity,qty;
         ImageView i_image;
-        Button inc_btn, dec_btn;
         ImageButton delete;
 
         public viewHolder(@NonNull View itemView) {
@@ -117,10 +85,9 @@ public class Quotation_item_Rcv_Adapter extends FirebaseRecyclerAdapter<Q_Items,
 
             i_name=(TextView) itemView.findViewById(R.id.i_name);
             i_price=(TextView) itemView.findViewById(R.id.i_price);
+            qty=(TextView) itemView.findViewById(R.id.qty);
             i_quantity=(TextView) itemView.findViewById(R.id.i_quantity);
             i_image=(ImageView) itemView.findViewById(R.id.i_image);
-            inc_btn=(Button) itemView.findViewById(R.id.inc_btn);
-            dec_btn=(Button) itemView.findViewById(R.id.dec_btn);
             delete=(ImageButton) itemView.findViewById(R.id.i_delete);
         }
     }

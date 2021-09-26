@@ -63,39 +63,29 @@
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/icons8_delete_bin_50" />
 
-        <Button
-            android:id="@+id/inc_btn"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
-            android:layout_marginStart="21dp"
-            android:text="@string/Increment_button"
-            android:textSize="24sp"
-            app:layout_constraintStart_toEndOf="@+id/i_image"
-            app:layout_constraintTop_toBottomOf="@+id/i_price" />
-
-        <Button
-            android:id="@+id/dec_btn"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
-            android:layout_marginEnd="63dp"
-            android:text="@string/decrement_button"
-            android:textAlignment="gravity"
-            android:textSize="22sp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/i_price" />
-
         <TextView
             android:id="@+id/i_quantity"
             android:layout_width="47dp"
             android:layout_height="26dp"
-            android:layout_marginStart="9dp"
             android:layout_marginTop="12dp"
-            android:layout_marginEnd="9dp"
+            android:layout_marginEnd="153dp"
             android:text="10"
             android:textAlignment="center"
             android:textSize="20sp"
-            app:layout_constraintEnd_toStartOf="@+id/dec_btn"
-            app:layout_constraintStart_toEndOf="@+id/inc_btn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/qty"
+            app:layout_constraintTop_toBottomOf="@+id/i_price" />
+
+        <TextView
+            android:id="@+id/qty"
+            android:layout_width="53dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/quan"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/i_image"
             app:layout_constraintTop_toBottomOf="@+id/i_price" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>

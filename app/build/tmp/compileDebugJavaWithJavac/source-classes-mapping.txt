@@ -17,10 +17,14 @@ com/example/madmini/it20122096/CreateDialog.java
  com.example.madmini.it20122096.CreateDialog$DialogListner
 com/example/madmini/it20115302/spare_parts_comp/SparePart.java
  com.example.madmini.it20115302.spare_parts_comp.SparePart
-com/example/madmini/it20122096/Admin_Panel.java
- com.example.madmini.it20122096.Admin_Panel
- com.example.madmini.it20122096.Admin_Panel$1
- com.example.madmini.it20122096.Admin_Panel$2
+com/example/madmini/it20122614/EditProfileActivity.java
+ com.example.madmini.it20122614.EditProfileActivity
+ com.example.madmini.it20122614.EditProfileActivity$1
+ com.example.madmini.it20122614.EditProfileActivity$1$1
+ com.example.madmini.it20122614.EditProfileActivity$2
+ com.example.madmini.it20122614.EditProfileActivity$2$1
+ com.example.madmini.it20122614.EditProfileActivity$2$1$1
+ com.example.madmini.it20122614.EditProfileActivity$2$2
 com/example/madmini/it20115302/spare_parts_comp/ShowSpareParts.java
  com.example.madmini.it20115302.spare_parts_comp.ShowSpareParts
  com.example.madmini.it20115302.spare_parts_comp.ShowSpareParts$1
@@ -30,9 +34,11 @@ com/example/madmini/it20122096/models/Quotations.java
  com.example.madmini.it20122096.models.Quotations
 com/example/madmini/it20115302/spare_parts_comp/SparePartVHClient.java
  com.example.madmini.it20115302.spare_parts_comp.SparePartVHClient
-com/example/madmini/it20122614/AddressBookActivity.java
- com.example.madmini.it20122614.AddressBookActivity
- com.example.madmini.it20122614.AddressBookActivity$1
+com/example/madmini/it20122614/RegisterActivity.java
+ com.example.madmini.it20122614.RegisterActivity
+ com.example.madmini.it20122614.RegisterActivity$1
+ com.example.madmini.it20122614.RegisterActivity$2
+ com.example.madmini.it20122614.RegisterActivity$3
 com/example/madmini/it20122614/CartActivity.java
  com.example.madmini.it20122614.CartActivity
  com.example.madmini.it20122614.CartActivity$1
@@ -56,41 +62,43 @@ com/example/madmini/it20122096/models/Orders.java
  com.example.madmini.it20122096.models.Orders
 com/example/madmini/it20122614/Totals.java
  com.example.madmini.it20122614.Totals
-com/example/madmini/it20122096/RcvAdapters/Quotation_Rcv_Adapter.java
- com.example.madmini.it20122096.RcvAdapters.Quotation_Rcv_Adapter
- com.example.madmini.it20122096.RcvAdapters.Quotation_Rcv_Adapter$1
- com.example.madmini.it20122096.RcvAdapters.Quotation_Rcv_Adapter$2
- com.example.madmini.it20122096.RcvAdapters.Quotation_Rcv_Adapter$2$1
- com.example.madmini.it20122096.RcvAdapters.Quotation_Rcv_Adapter$2$2
- com.example.madmini.it20122096.RcvAdapters.Quotation_Rcv_Adapter$SelectedQuotation
- com.example.madmini.it20122096.RcvAdapters.Quotation_Rcv_Adapter$viewHolder
-com/example/madmini/it20122096/Pc_Build_Orders.java
- com.example.madmini.it20122096.Pc_Build_Orders
+com/example/madmini/it20122096/BulidPc.java
+ com.example.madmini.it20122096.BulidPc
+ com.example.madmini.it20122096.BulidPc$1
+ com.example.madmini.it20122096.BulidPc$2
+ com.example.madmini.it20122096.BulidPc$3
+ com.example.madmini.it20122096.BulidPc$4
+com/example/madmini/it20122096/DashBoard.java
+ com.example.madmini.it20122096.DashBoard
+ com.example.madmini.it20122096.DashBoard$1
+ com.example.madmini.it20122096.DashBoard$2
+ com.example.madmini.it20122096.DashBoard$3
 com/example/madmini/it20122614/Order.java
  com.example.madmini.it20122614.Order
 com/example/madmini/it20115302/spare_parts_comp/UpdateSparePart.java
  com.example.madmini.it20115302.spare_parts_comp.UpdateSparePart
-com/example/madmini/it20122096/Quotation_Items.java
- com.example.madmini.it20122096.Quotation_Items
- com.example.madmini.it20122096.Quotation_Items$1
- com.example.madmini.it20122096.Quotation_Items$2
- com.example.madmini.it20122096.Quotation_Items$3
-com/example/madmini/it20115302/spare_parts_comp/DAOCart.java
- com.example.madmini.it20115302.spare_parts_comp.DAOCart
-com/example/madmini/it20115302/spare_parts_comp/Cart.java
- com.example.madmini.it20115302.spare_parts_comp.Cart
+com/example/madmini/it20115302/spare_parts_comp/AddSparePart.java
+ com.example.madmini.it20115302.spare_parts_comp.AddSparePart
+com/example/madmini/it20122614/ProfileActivity.java
+ com.example.madmini.it20122614.ProfileActivity
+ com.example.madmini.it20122614.ProfileActivity$1
+ com.example.madmini.it20122614.ProfileActivity$2
+ com.example.madmini.it20122614.ProfileActivity$3
+ com.example.madmini.it20122614.ProfileActivity$4
+ com.example.madmini.it20122614.ProfileActivity$5
+ com.example.madmini.it20122614.ProfileActivity$6
+ com.example.madmini.it20122614.ProfileActivity$7
+com/example/madmini/it20122614/LoginActivity.java
+ com.example.madmini.it20122614.LoginActivity
+ com.example.madmini.it20122614.LoginActivity$1
+ com.example.madmini.it20122614.LoginActivity$2
+ com.example.madmini.it20122614.LoginActivity$3
 com/example/madmini/it20122096/models/Parts.java
  com.example.madmini.it20122096.models.Parts
 com/example/madmini/it20122614/OrdersTable.java
  com.example.madmini.it20122614.OrdersTable
-com/example/madmini/it20122096/RcvAdapters/Quotation_item_Rcv_Adapter.java
- com.example.madmini.it20122096.RcvAdapters.Quotation_item_Rcv_Adapter
- com.example.madmini.it20122096.RcvAdapters.Quotation_item_Rcv_Adapter$1
- com.example.madmini.it20122096.RcvAdapters.Quotation_item_Rcv_Adapter$2
- com.example.madmini.it20122096.RcvAdapters.Quotation_item_Rcv_Adapter$3
- com.example.madmini.it20122096.RcvAdapters.Quotation_item_Rcv_Adapter$3$1
- com.example.madmini.it20122096.RcvAdapters.Quotation_item_Rcv_Adapter$3$2
- com.example.madmini.it20122096.RcvAdapters.Quotation_item_Rcv_Adapter$viewHolder
+com/example/madmini/it20115302/spare_parts_comp/Cart.java
+ com.example.madmini.it20115302.spare_parts_comp.Cart
 com/example/madmini/it20122096/RcvAdapters/Quotation_List_Adapter.java
  com.example.madmini.it20122096.RcvAdapters.Quotation_List_Adapter
  com.example.madmini.it20122096.RcvAdapters.Quotation_List_Adapter$viewHolder
@@ -119,43 +127,36 @@ com/example/madmini/it20122614/PaymentActivity.java
  com.example.madmini.it20122614.PaymentActivity$1
  com.example.madmini.it20122614.PaymentActivity$2
  com.example.madmini.it20122614.PaymentActivity$3
-com/example/madmini/it20122614/EditProfileActivity.java
- com.example.madmini.it20122614.EditProfileActivity
- com.example.madmini.it20122614.EditProfileActivity$1
- com.example.madmini.it20122614.EditProfileActivity$1$1
- com.example.madmini.it20122614.EditProfileActivity$2
- com.example.madmini.it20122614.EditProfileActivity$2$1
- com.example.madmini.it20122614.EditProfileActivity$2$1$1
- com.example.madmini.it20122614.EditProfileActivity$2$2
-com/example/madmini/it20122614/RegisterActivity.java
- com.example.madmini.it20122614.RegisterActivity
- com.example.madmini.it20122614.RegisterActivity$1
- com.example.madmini.it20122614.RegisterActivity$2
- com.example.madmini.it20122614.RegisterActivity$3
-com/example/madmini/it20122096/BulidPc.java
- com.example.madmini.it20122096.BulidPc
- com.example.madmini.it20122096.BulidPc$1
- com.example.madmini.it20122096.BulidPc$2
- com.example.madmini.it20122096.BulidPc$3
- com.example.madmini.it20122096.BulidPc$4
-com/example/madmini/it20122096/DashBoard.java
- com.example.madmini.it20122096.DashBoard
- com.example.madmini.it20122096.DashBoard$1
- com.example.madmini.it20122096.DashBoard$2
- com.example.madmini.it20122096.DashBoard$3
-com/example/madmini/it20122614/ProfileActivity.java
- com.example.madmini.it20122614.ProfileActivity
- com.example.madmini.it20122614.ProfileActivity$1
- com.example.madmini.it20122614.ProfileActivity$2
- com.example.madmini.it20122614.ProfileActivity$3
- com.example.madmini.it20122614.ProfileActivity$4
- com.example.madmini.it20122614.ProfileActivity$5
- com.example.madmini.it20122614.ProfileActivity$6
- com.example.madmini.it20122614.ProfileActivity$7
-com/example/madmini/it20122614/LoginActivity.java
- com.example.madmini.it20122614.LoginActivity
- com.example.madmini.it20122614.LoginActivity$1
- com.example.madmini.it20122614.LoginActivity$2
- com.example.madmini.it20122614.LoginActivity$3
-com/example/madmini/it20115302/spare_parts_comp/AddSparePart.java
- com.example.madmini.it20115302.spare_parts_comp.AddSparePart
+com/example/madmini/it20115302/spare_parts_comp/DAOCart.java
+ com.example.madmini.it20115302.spare_parts_comp.DAOCart
+com/example/madmini/it20122096/RcvAdapters/Quotation_Rcv_Adapter.java
+ com.example.madmini.it20122096.RcvAdapters.Quotation_Rcv_Adapter
+ com.example.madmini.it20122096.RcvAdapters.Quotation_Rcv_Adapter$1
+ com.example.madmini.it20122096.RcvAdapters.Quotation_Rcv_Adapter$2
+ com.example.madmini.it20122096.RcvAdapters.Quotation_Rcv_Adapter$3
+ com.example.madmini.it20122096.RcvAdapters.Quotation_Rcv_Adapter$3$1
+ com.example.madmini.it20122096.RcvAdapters.Quotation_Rcv_Adapter$3$2
+ com.example.madmini.it20122096.RcvAdapters.Quotation_Rcv_Adapter$SelectedQuotation
+ com.example.madmini.it20122096.RcvAdapters.Quotation_Rcv_Adapter$viewHolder
+com/example/madmini/it20122096/Pc_Build_Orders.java
+ com.example.madmini.it20122096.Pc_Build_Orders
+com/example/madmini/it20122614/AddressBookActivity.java
+ com.example.madmini.it20122614.AddressBookActivity
+ com.example.madmini.it20122614.AddressBookActivity$1
+com/example/madmini/it20122096/Admin_Panel.java
+ com.example.madmini.it20122096.Admin_Panel
+ com.example.madmini.it20122096.Admin_Panel$1
+ com.example.madmini.it20122096.Admin_Panel$2
+ com.example.madmini.it20122096.Admin_Panel$3
+ com.example.madmini.it20122096.Admin_Panel$4
+com/example/madmini/it20122096/Quotation_Items.java
+ com.example.madmini.it20122096.Quotation_Items
+ com.example.madmini.it20122096.Quotation_Items$1
+ com.example.madmini.it20122096.Quotation_Items$2
+ com.example.madmini.it20122096.Quotation_Items$3
+com/example/madmini/it20122096/RcvAdapters/Quotation_item_Rcv_Adapter.java
+ com.example.madmini.it20122096.RcvAdapters.Quotation_item_Rcv_Adapter
+ com.example.madmini.it20122096.RcvAdapters.Quotation_item_Rcv_Adapter$1
+ com.example.madmini.it20122096.RcvAdapters.Quotation_item_Rcv_Adapter$1$1
+ com.example.madmini.it20122096.RcvAdapters.Quotation_item_Rcv_Adapter$1$2
+ com.example.madmini.it20122096.RcvAdapters.Quotation_item_Rcv_Adapter$viewHolder

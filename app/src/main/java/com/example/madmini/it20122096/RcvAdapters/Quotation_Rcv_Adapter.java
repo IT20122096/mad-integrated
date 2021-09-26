@@ -50,7 +50,14 @@ public class Quotation_Rcv_Adapter extends FirebaseRecyclerAdapter<Quotations,Qu
         holder.q_view.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                selectedQuotation.selectedQuotation(model);
+
+                selectedQuotation.selectedQuotation(model,"view");
+            }
+        });
+        holder.q_pay.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                selectedQuotation.selectedQuotation(model,"pay");
             }
         });
 
@@ -88,7 +95,7 @@ public class Quotation_Rcv_Adapter extends FirebaseRecyclerAdapter<Quotations,Qu
     }
 
     public interface SelectedQuotation{
-        void selectedQuotation(Quotations quotaions);
+        void selectedQuotation(Quotations quotaions, String type);
     }
 
     class viewHolder extends RecyclerView.ViewHolder{
@@ -107,6 +114,7 @@ public class Quotation_Rcv_Adapter extends FirebaseRecyclerAdapter<Quotations,Qu
 
             q_view=(Button) itemView.findViewById(R.id.q_view);
             q_delete=(ImageButton) itemView.findViewById(R.id.q_delete);
+            q_pay=(Button) itemView.findViewById(R.id.q_pay);
 
            
 

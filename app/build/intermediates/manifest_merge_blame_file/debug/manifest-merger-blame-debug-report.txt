@@ -10,455 +10,457 @@
 9        android:targetSdkVersion="31" />
 9-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml
 10
-11    <uses-permission android:name="android.permission.INTERNET" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
-11-->[com.firebaseui:firebase-ui-database:8.0.0] C:\Users\chama\.gradle\caches\transforms-3\4eb417843d69b927295683ce8d3f6c89\transformed\jetified-firebase-ui-database-8.0.0\AndroidManifest.xml:9:5-67
-11-->[com.firebaseui:firebase-ui-database:8.0.0] C:\Users\chama\.gradle\caches\transforms-3\4eb417843d69b927295683ce8d3f6c89\transformed\jetified-firebase-ui-database-8.0.0\AndroidManifest.xml:9:22-64
-12    <!-- <uses-sdk android:minSdkVersion="14"/> -->
-13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-13-->[com.google.firebase:firebase-database:20.0.2] C:\Users\chama\.gradle\caches\transforms-3\31a6a937917b778354272211aae1edba\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:25:5-79
-13-->[com.google.firebase:firebase-database:20.0.2] C:\Users\chama\.gradle\caches\transforms-3\31a6a937917b778354272211aae1edba\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:25:22-76
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:4:5-66
+11-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:5:5-78
+12-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:6:5-80
+13-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:6:22-78
 14    <uses-permission android:name="android.permission.WAKE_LOCK" />
-14-->[com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\chama\.gradle\caches\transforms-3\9dcc7c6d1afd317f42d3ab94fa2bea04\transformed\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:24:5-68
-14-->[com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\chama\.gradle\caches\transforms-3\9dcc7c6d1afd317f42d3ab94fa2bea04\transformed\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:24:22-65
+14-->[com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\chama\.gradle\caches\transforms-3\f1dc90b36d1c879fa9b44cc547cf7d07\transformed\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:24:5-68
+14-->[com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\chama\.gradle\caches\transforms-3\f1dc90b36d1c879fa9b44cc547cf7d07\transformed\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:24:22-65
 15    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-15-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\chama\.gradle\caches\transforms-3\714504ae62e321cf1b9b21d83fb70c44\transformed\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:26:5-110
-15-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\chama\.gradle\caches\transforms-3\714504ae62e321cf1b9b21d83fb70c44\transformed\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:26:22-107
+15-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\chama\.gradle\caches\transforms-3\bd95e3126c0fb29a7a006c043cb055d8\transformed\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:26:5-110
+15-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\chama\.gradle\caches\transforms-3\bd95e3126c0fb29a7a006c043cb055d8\transformed\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:26:22-107
 16
 17    <application
-17-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:5:5-154:19
+17-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:7:5-156:19
 18        android:allowBackup="true"
-18-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:6:9-35
+18-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:8:9-35
 19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-19-->[androidx.core:core:1.5.0] C:\Users\chama\.gradle\caches\transforms-3\1c82df0e58fbd0ba966b0ae0d34659c1\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+19-->[androidx.core:core:1.5.0] C:\Users\chama\.gradle\caches\transforms-3\76abac82631e9c44f266b512def22aec\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
 20        android:debuggable="true"
 21        android:icon="@mipmap/ic_launcher"
-21-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:7:9-43
+21-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:9:9-43
 22        android:label="@string/app_name"
-22-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:8:9-41
+22-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:10:9-41
 23        android:roundIcon="@mipmap/ic_launcher_round"
-23-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:9:9-54
+23-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:11:9-54
 24        android:supportsRtl="true"
-24-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:10:9-35
+24-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:12:9-35
 25        android:testOnly="true"
 26        android:theme="@style/Theme.MadMini" >
-26-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:11:9-45
+26-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:13:9-45
 27        <activity
-27-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:12:9-14:39
+27-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:14:9-16:39
 28            android:name="com.example.madmini.it20122614.EditProfileActivity"
-28-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:13:13-59
+28-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:15:13-59
 29            android:exported="true" />
-29-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:14:13-36
+29-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:16:13-36
 30        <activity
-30-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:15:9-17:39
+30-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:17:9-19:39
 31            android:name="com.example.madmini.it20122614.ProfileActivity"
-31-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:16:13-55
+31-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:18:13-55
 32            android:exported="true" />
-32-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:17:13-36
+32-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:19:13-36
 33        <activity
-33-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:18:9-23:20
+33-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:20:9-25:20
 34            android:name="com.example.madmini.it20122614.RegisterActivity"
-34-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:19:13-56
+34-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:21:13-56
 35            android:exported="true" >
-35-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:20:13-36
+35-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:22:13-36
 36        </activity>
 37        <activity
-37-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:25:9-27:39
+37-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:27:9-29:39
 38            android:name="com.example.madmini.it20122614.PaymentActivity"
-38-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:26:13-55
+38-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:28:13-55
 39            android:exported="true" />
-39-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:27:13-36
+39-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:29:13-36
 40        <activity
-40-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:28:9-36:20
+40-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:30:9-38:20
 41            android:name="com.example.madmini.it20122614.LoginActivity"
-41-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:29:13-53
+41-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:31:13-53
 42            android:exported="true" >
-42-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:30:13-36
+42-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:32:13-36
 43            <intent-filter>
-43-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:31:13-35:29
+43-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:33:13-37:29
 44                <action android:name="android.intent.action.MAIN" />
-44-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:32:17-69
-44-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:32:25-66
+44-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:34:17-69
+44-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:34:25-66
 45
 46                <category android:name="android.intent.category.LAUNCHER" />
-46-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:34:17-77
-46-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:34:27-74
+46-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:36:17-77
+46-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:36:27-74
 47            </intent-filter>
 48        </activity>
 49        <activity
-49-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:37:9-39:39
+49-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:39:9-41:39
 50            android:name="com.example.madmini.it20122614.CartActivity"
-50-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:38:13-52
+50-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:40:13-52
 51            android:exported="true" />
-51-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:39:13-36
+51-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:41:13-36
 52        <activity
-52-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:40:9-42:39
+52-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:42:9-44:39
 53            android:name="com.example.madmini.it20122614.AddressBookActivity"
-53-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:41:13-59
+53-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:43:13-59
 54            android:exported="true" />
-54-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:42:13-36
+54-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:44:13-36
 55        <activity
-55-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:43:9-45:39
+55-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:45:9-47:39
 56            android:name="com.example.madmini.it20115302.spare_parts_comp.ViewAllSpareParts"
-56-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:44:13-74
+56-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:46:13-74
 57            android:exported="true" />
-57-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:45:13-36
+57-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:47:13-36
 58        <activity
-58-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:46:9-48:39
+58-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:48:9-50:39
 59            android:name="com.example.madmini.it20115302.spare_parts_comp.UpdateSparePart"
-59-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:47:13-72
+59-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:49:13-72
 60            android:exported="true" />
-60-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:48:13-36
+60-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:50:13-36
 61        <activity
-61-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:49:9-53:20
+61-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:51:9-55:20
 62            android:name="com.example.madmini.it20115302.spare_parts_comp.ShowSpareParts"
-62-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:50:13-71
+62-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:52:13-71
 63            android:exported="true" >
-63-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:51:13-36
+63-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:53:13-36
 64        </activity>
 65        <activity
-65-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:54:9-56:39
+65-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:56:9-58:39
 66            android:name="com.example.madmini.it20115302.spare_parts_comp.AddSparePart"
-66-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:55:13-69
+66-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:57:13-69
 67            android:exported="true" />
-67-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:56:13-36
+67-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:58:13-36
 68        <activity
-68-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:57:9-69:20
+68-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:59:9-71:20
 69            android:name="com.example.madmini.it20122096.PartOrder_Details"
-69-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:58:13-57
+69-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:60:13-57
 70            android:exported="true"
-70-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:59:13-36
+70-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:61:13-36
 71            android:parentActivityName="com.example.madmini.it20122096.Pc_Build_Orders" >
-71-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:60:13-69
+71-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:62:13-69
 72
 73            <!--
 74            The meta-data tag is required if you support API level 15
 75            and lower
 76            -->
 77            <meta-data
-77-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:66:13-68:63
+77-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:68:13-70:63
 78                android:name="android.support.PARENT_ACTIVITY"
-78-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:67:17-63
+78-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:69:17-63
 79                android:value=".it20122096.Pc_Build_Orders" />
-79-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:68:17-60
+79-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:70:17-60
 80        </activity>
 81        <activity
-81-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:70:9-82:20
+81-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:72:9-84:20
 82            android:name="com.example.madmini.it20122096.BuildOrder_Details"
-82-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:71:13-58
+82-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:73:13-58
 83            android:exported="true"
-83-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:72:13-36
+83-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:74:13-36
 84            android:parentActivityName="com.example.madmini.it20122096.Pc_Build_Orders" >
-84-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:73:13-69
+84-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:75:13-69
 85
 86            <!--
 87            The meta-data tag is required if you support API level 15
 88            and lower
 89            -->
 90            <meta-data
-90-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:66:13-68:63
+90-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:68:13-70:63
 91                android:name="android.support.PARENT_ACTIVITY"
-91-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:67:17-63
+91-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:69:17-63
 92                android:value=".it20122096.Pc_Build_Orders" />
-92-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:68:17-60
+92-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:70:17-60
 93        </activity>
 94        <activity
-94-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:83:9-95:20
+94-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:85:9-97:20
 95            android:name="com.example.madmini.it20122096.Pc_Build_Orders"
-95-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:84:13-55
+95-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:86:13-55
 96            android:exported="true"
-96-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:85:13-36
+96-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:87:13-36
 97            android:parentActivityName="com.example.madmini.it20122096.Pc_Build_Orders" >
-97-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:86:13-69
+97-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:88:13-69
 98
 99            <!--
 100            The meta-data tag is required if you support API level 15
 101            and lower
 102            -->
 103            <meta-data
-103-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:66:13-68:63
+103-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:68:13-70:63
 104                android:name="android.support.PARENT_ACTIVITY"
-104-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:67:17-63
+104-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:69:17-63
 105                android:value=".it20122096.Pc_Build_Orders" />
-105-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:68:17-60
+105-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:70:17-60
 106        </activity>
 107        <activity
-107-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:96:9-108:20
+107-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:98:9-110:20
 108            android:name="com.example.madmini.it20122096.Admin_Panel"
-108-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:97:13-51
+108-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:99:13-51
 109            android:exported="true"
-109-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:98:13-36
+109-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:100:13-36
 110            android:parentActivityName="com.example.madmini.it20122096.DashBoard" >
-110-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:99:13-63
+110-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:101:13-63
 111
 112            <!--
 113            The meta-data tag is required if you support API level 15
 114            and lower
 115            -->
 116            <meta-data
-116-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:66:13-68:63
+116-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:68:13-70:63
 117                android:name="android.support.PARENT_ACTIVITY"
-117-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:67:17-63
+117-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:69:17-63
 118                android:value=".it20122096.DashBoard" />
-118-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:68:17-60
+118-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:70:17-60
 119        </activity>
 120        <activity
-120-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:109:9-121:20
+120-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:111:9-123:20
 121            android:name="com.example.madmini.it20122096.Add_Quotation_Item"
-121-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:110:13-58
+121-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:112:13-58
 122            android:exported="true"
-122-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:111:13-36
+122-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:113:13-36
 123            android:parentActivityName="com.example.madmini.it20122096.BulidPc" >
-123-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:112:13-61
+123-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:114:13-61
 124
 125            <!--
 126            The meta-data tag is required if you support API level 15
 127            and lower
 128            -->
 129            <meta-data
-129-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:66:13-68:63
+129-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:68:13-70:63
 130                android:name="android.support.PARENT_ACTIVITY"
-130-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:67:17-63
+130-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:69:17-63
 131                android:value=".it20122096.BulidPc" />
-131-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:68:17-60
+131-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:70:17-60
 132        </activity>
 133        <activity
-133-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:122:9-134:20
+133-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:124:9-136:20
 134            android:name="com.example.madmini.it20122096.Quotation_Items"
-134-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:123:13-55
+134-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:125:13-55
 135            android:exported="true"
-135-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:124:13-36
+135-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:126:13-36
 136            android:parentActivityName="com.example.madmini.it20122096.BulidPc" >
-136-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:125:13-61
+136-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:127:13-61
 137
 138            <!--
 139            The meta-data tag is required if you support API level 15
 140            and lower
 141            -->
 142            <meta-data
-142-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:66:13-68:63
+142-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:68:13-70:63
 143                android:name="android.support.PARENT_ACTIVITY"
-143-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:67:17-63
+143-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:69:17-63
 144                android:value=".it20122096.BulidPc" />
-144-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:68:17-60
+144-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:70:17-60
 145        </activity>
 146        <activity
-146-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:135:9-147:20
+146-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:137:9-149:20
 147            android:name="com.example.madmini.it20122096.BulidPc"
-147-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:136:13-47
+147-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:138:13-47
 148            android:exported="true"
-148-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:137:13-36
+148-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:139:13-36
 149            android:parentActivityName="com.example.madmini.it20122096.DashBoard" >
-149-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:138:13-63
+149-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:140:13-63
 150
 151            <!--
 152        The meta-data tag is required if you support API level 15
 153        and lower
 154            -->
 155            <meta-data
-155-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:66:13-68:63
+155-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:68:13-70:63
 156                android:name="android.support.PARENT_ACTIVITY"
-156-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:67:17-63
+156-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:69:17-63
 157                android:value=".it20122096.DashBoard" />
-157-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:68:17-60
+157-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:70:17-60
 158        </activity>
 159        <activity
-159-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:148:9-153:20
+159-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:150:9-155:20
 160            android:name="com.example.madmini.it20122096.DashBoard"
-160-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:149:13-49
+160-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:151:13-49
 161            android:exported="true"
-161-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:150:13-36
+161-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:152:13-36
 162            android:theme="@style/Theme.MaterialComponents.NoActionBar" >
-162-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:151:13-72
+162-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:153:13-72
 163        </activity>
 164
 165        <service
-165-->[com.google.firebase:firebase-database:20.0.2] C:\Users\chama\.gradle\caches\transforms-3\31a6a937917b778354272211aae1edba\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:29:9-35:19
+165-->[com.google.firebase:firebase-database:20.0.2] C:\Users\chama\.gradle\caches\transforms-3\1da2b471820652ee8600702661b457dd\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:29:9-35:19
 166            android:name="com.google.firebase.components.ComponentDiscoveryService"
-166-->[com.google.firebase:firebase-database:20.0.2] C:\Users\chama\.gradle\caches\transforms-3\31a6a937917b778354272211aae1edba\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:30:13-84
+166-->[com.google.firebase:firebase-database:20.0.2] C:\Users\chama\.gradle\caches\transforms-3\1da2b471820652ee8600702661b457dd\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:30:13-84
 167            android:directBootAware="true"
-167-->[com.google.firebase:firebase-common:20.0.0] C:\Users\chama\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+167-->[com.google.firebase:firebase-common:20.0.0] C:\Users\chama\.gradle\caches\transforms-3\3f5b3a090f1502dc302a29b659648c89\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
 168            android:exported="false" >
-168-->[com.google.firebase:firebase-database:20.0.2] C:\Users\chama\.gradle\caches\transforms-3\31a6a937917b778354272211aae1edba\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:31:13-37
+168-->[com.google.firebase:firebase-database:20.0.2] C:\Users\chama\.gradle\caches\transforms-3\1da2b471820652ee8600702661b457dd\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:31:13-37
 169            <meta-data
-169-->[com.google.firebase:firebase-database:20.0.2] C:\Users\chama\.gradle\caches\transforms-3\31a6a937917b778354272211aae1edba\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:32:13-34:85
+169-->[com.google.firebase:firebase-database:20.0.2] C:\Users\chama\.gradle\caches\transforms-3\1da2b471820652ee8600702661b457dd\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:32:13-34:85
 170                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-170-->[com.google.firebase:firebase-database:20.0.2] C:\Users\chama\.gradle\caches\transforms-3\31a6a937917b778354272211aae1edba\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:33:17-109
+170-->[com.google.firebase:firebase-database:20.0.2] C:\Users\chama\.gradle\caches\transforms-3\1da2b471820652ee8600702661b457dd\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:33:17-109
 171                android:value="com.google.firebase.components.ComponentRegistrar" />
-171-->[com.google.firebase:firebase-database:20.0.2] C:\Users\chama\.gradle\caches\transforms-3\31a6a937917b778354272211aae1edba\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:34:17-82
+171-->[com.google.firebase:firebase-database:20.0.2] C:\Users\chama\.gradle\caches\transforms-3\1da2b471820652ee8600702661b457dd\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:34:17-82
 172            <meta-data
-172-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
+172-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\5aac142cf371911187fa5074d83fb402\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
 173                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-173-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
+173-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\5aac142cf371911187fa5074d83fb402\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
 174                android:value="com.google.firebase.components.ComponentRegistrar" />
-174-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
+174-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\5aac142cf371911187fa5074d83fb402\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
 175            <meta-data
-175-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\chama\.gradle\caches\transforms-3\773b1eff15c8b6f77bc17bf53b62a785\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:33:13-35:85
+175-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\chama\.gradle\caches\transforms-3\170bf0a736f31de4a6327c945a541029\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:33:13-35:85
 176                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
-176-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\chama\.gradle\caches\transforms-3\773b1eff15c8b6f77bc17bf53b62a785\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:34:17-107
+176-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\chama\.gradle\caches\transforms-3\170bf0a736f31de4a6327c945a541029\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:34:17-107
 177                android:value="com.google.firebase.components.ComponentRegistrar" />
-177-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\chama\.gradle\caches\transforms-3\773b1eff15c8b6f77bc17bf53b62a785\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:35:17-82
+177-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\chama\.gradle\caches\transforms-3\170bf0a736f31de4a6327c945a541029\transformed\jetified-firebase-storage-20.0.0\AndroidManifest.xml:35:17-82
 178            <meta-data
-178-->[com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\chama\.gradle\caches\transforms-3\9dcc7c6d1afd317f42d3ab94fa2bea04\transformed\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:30:13-32:85
+178-->[com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\chama\.gradle\caches\transforms-3\f1dc90b36d1c879fa9b44cc547cf7d07\transformed\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:30:13-32:85
 179                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-179-->[com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\chama\.gradle\caches\transforms-3\9dcc7c6d1afd317f42d3ab94fa2bea04\transformed\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:31:17-139
+179-->[com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\chama\.gradle\caches\transforms-3\f1dc90b36d1c879fa9b44cc547cf7d07\transformed\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:31:17-139
 180                android:value="com.google.firebase.components.ComponentRegistrar" />
-180-->[com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\chama\.gradle\caches\transforms-3\9dcc7c6d1afd317f42d3ab94fa2bea04\transformed\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:32:17-82
+180-->[com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\chama\.gradle\caches\transforms-3\f1dc90b36d1c879fa9b44cc547cf7d07\transformed\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:32:17-82
 181            <meta-data
-181-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\chama\.gradle\caches\transforms-3\045ee3e52baef22a6f354e1b63ce65b6\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
+181-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\chama\.gradle\caches\transforms-3\9779c35fd7ad3eb613a12ce10207a839\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
 182                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-182-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\chama\.gradle\caches\transforms-3\045ee3e52baef22a6f354e1b63ce65b6\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
+182-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\chama\.gradle\caches\transforms-3\9779c35fd7ad3eb613a12ce10207a839\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
 183                android:value="com.google.firebase.components.ComponentRegistrar" />
-183-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\chama\.gradle\caches\transforms-3\045ee3e52baef22a6f354e1b63ce65b6\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
+183-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\chama\.gradle\caches\transforms-3\9779c35fd7ad3eb613a12ce10207a839\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
 184        </service>
 185
 186        <activity
-186-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
+186-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\5aac142cf371911187fa5074d83fb402\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
 187            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-187-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
+187-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\5aac142cf371911187fa5074d83fb402\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
 188            android:excludeFromRecents="true"
-188-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
+188-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\5aac142cf371911187fa5074d83fb402\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
 189            android:exported="true"
-189-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
+189-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\5aac142cf371911187fa5074d83fb402\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
 190            android:launchMode="singleTask"
-190-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
+190-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\5aac142cf371911187fa5074d83fb402\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
 191            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-191-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
+191-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\5aac142cf371911187fa5074d83fb402\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
 192            <intent-filter>
-192-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
+192-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\5aac142cf371911187fa5074d83fb402\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
 193                <action android:name="android.intent.action.VIEW" />
-193-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
-193-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+193-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\5aac142cf371911187fa5074d83fb402\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+193-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\5aac142cf371911187fa5074d83fb402\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
 194
 195                <category android:name="android.intent.category.DEFAULT" />
-195-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
-195-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+195-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\5aac142cf371911187fa5074d83fb402\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+195-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\5aac142cf371911187fa5074d83fb402\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
 196                <category android:name="android.intent.category.BROWSABLE" />
-196-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
-196-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+196-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\5aac142cf371911187fa5074d83fb402\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+196-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\5aac142cf371911187fa5074d83fb402\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
 197
 198                <data
-198-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+198-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\5aac142cf371911187fa5074d83fb402\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
 199                    android:host="firebase.auth"
-199-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+199-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\5aac142cf371911187fa5074d83fb402\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
 200                    android:path="/"
-200-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+200-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\5aac142cf371911187fa5074d83fb402\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
 201                    android:scheme="genericidp" />
-201-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+201-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\5aac142cf371911187fa5074d83fb402\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
 202            </intent-filter>
 203        </activity>
 204        <activity
-204-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
+204-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\5aac142cf371911187fa5074d83fb402\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
 205            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-205-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
+205-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\5aac142cf371911187fa5074d83fb402\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
 206            android:excludeFromRecents="true"
-206-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
+206-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\5aac142cf371911187fa5074d83fb402\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
 207            android:exported="true"
-207-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
+207-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\5aac142cf371911187fa5074d83fb402\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
 208            android:launchMode="singleTask"
-208-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
+208-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\5aac142cf371911187fa5074d83fb402\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
 209            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-209-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
+209-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\5aac142cf371911187fa5074d83fb402\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
 210            <intent-filter>
-210-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
+210-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\5aac142cf371911187fa5074d83fb402\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
 211                <action android:name="android.intent.action.VIEW" />
-211-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
-211-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+211-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\5aac142cf371911187fa5074d83fb402\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+211-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\5aac142cf371911187fa5074d83fb402\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
 212
 213                <category android:name="android.intent.category.DEFAULT" />
-213-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
-213-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+213-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\5aac142cf371911187fa5074d83fb402\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+213-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\5aac142cf371911187fa5074d83fb402\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
 214                <category android:name="android.intent.category.BROWSABLE" />
-214-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
-214-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+214-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\5aac142cf371911187fa5074d83fb402\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+214-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\5aac142cf371911187fa5074d83fb402\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
 215
 216                <data
-216-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+216-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\5aac142cf371911187fa5074d83fb402\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
 217                    android:host="firebase.auth"
-217-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+217-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\5aac142cf371911187fa5074d83fb402\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
 218                    android:path="/"
-218-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+218-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\5aac142cf371911187fa5074d83fb402\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
 219                    android:scheme="recaptcha" />
-219-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+219-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\5aac142cf371911187fa5074d83fb402\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
 220            </intent-filter>
 221        </activity>
 222
 223        <service
-223-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
+223-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\5aac142cf371911187fa5074d83fb402\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
 224            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
-224-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
+224-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\5aac142cf371911187fa5074d83fb402\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
 225            android:enabled="true"
-225-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
+225-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\5aac142cf371911187fa5074d83fb402\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
 226            android:exported="false" >
-226-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
+226-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\5aac142cf371911187fa5074d83fb402\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
 227            <intent-filter>
-227-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
+227-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\5aac142cf371911187fa5074d83fb402\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
 228                <action android:name="com.google.firebase.auth.api.gms.service.START" />
-228-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
-228-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
+228-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\5aac142cf371911187fa5074d83fb402\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
+228-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\5aac142cf371911187fa5074d83fb402\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
 229
 230                <category android:name="android.intent.category.DEFAULT" />
-230-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
-230-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\4a5bd81f2d39381151216137588893e3\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+230-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\5aac142cf371911187fa5074d83fb402\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+230-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\chama\.gradle\caches\transforms-3\5aac142cf371911187fa5074d83fb402\transformed\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
 231            </intent-filter>
 232        </service>
 233
 234        <activity
-234-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\chama\.gradle\caches\transforms-3\9917c1060ba2f79f3519a1b2bf642c2c\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+234-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\chama\.gradle\caches\transforms-3\74222b1cdfaa0b929088d2a1689bca9f\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
 235            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-235-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\chama\.gradle\caches\transforms-3\9917c1060ba2f79f3519a1b2bf642c2c\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+235-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\chama\.gradle\caches\transforms-3\74222b1cdfaa0b929088d2a1689bca9f\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
 236            android:exported="false"
-236-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\chama\.gradle\caches\transforms-3\9917c1060ba2f79f3519a1b2bf642c2c\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+236-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\chama\.gradle\caches\transforms-3\74222b1cdfaa0b929088d2a1689bca9f\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
 237            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-237-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\chama\.gradle\caches\transforms-3\9917c1060ba2f79f3519a1b2bf642c2c\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+237-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\chama\.gradle\caches\transforms-3\74222b1cdfaa0b929088d2a1689bca9f\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
 238
 239        <provider
-239-->[com.google.firebase:firebase-common:20.0.0] C:\Users\chama\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+239-->[com.google.firebase:firebase-common:20.0.0] C:\Users\chama\.gradle\caches\transforms-3\3f5b3a090f1502dc302a29b659648c89\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
 240            android:name="com.google.firebase.provider.FirebaseInitProvider"
-240-->[com.google.firebase:firebase-common:20.0.0] C:\Users\chama\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+240-->[com.google.firebase:firebase-common:20.0.0] C:\Users\chama\.gradle\caches\transforms-3\3f5b3a090f1502dc302a29b659648c89\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
 241            android:authorities="com.example.madmini.firebaseinitprovider"
-241-->[com.google.firebase:firebase-common:20.0.0] C:\Users\chama\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+241-->[com.google.firebase:firebase-common:20.0.0] C:\Users\chama\.gradle\caches\transforms-3\3f5b3a090f1502dc302a29b659648c89\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
 242            android:directBootAware="true"
-242-->[com.google.firebase:firebase-common:20.0.0] C:\Users\chama\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+242-->[com.google.firebase:firebase-common:20.0.0] C:\Users\chama\.gradle\caches\transforms-3\3f5b3a090f1502dc302a29b659648c89\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
 243            android:exported="false"
-243-->[com.google.firebase:firebase-common:20.0.0] C:\Users\chama\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+243-->[com.google.firebase:firebase-common:20.0.0] C:\Users\chama\.gradle\caches\transforms-3\3f5b3a090f1502dc302a29b659648c89\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
 244            android:initOrder="100" />
-244-->[com.google.firebase:firebase-common:20.0.0] C:\Users\chama\.gradle\caches\transforms-3\86e13b6ca81a6c901885b317cb2ca953\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+244-->[com.google.firebase:firebase-common:20.0.0] C:\Users\chama\.gradle\caches\transforms-3\3f5b3a090f1502dc302a29b659648c89\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
 245
 246        <receiver
-246-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\chama\.gradle\caches\transforms-3\714504ae62e321cf1b9b21d83fb70c44\transformed\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:29:9-33:20
+246-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\chama\.gradle\caches\transforms-3\bd95e3126c0fb29a7a006c043cb055d8\transformed\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:29:9-33:20
 247            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-247-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\chama\.gradle\caches\transforms-3\714504ae62e321cf1b9b21d83fb70c44\transformed\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:30:13-85
+247-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\chama\.gradle\caches\transforms-3\bd95e3126c0fb29a7a006c043cb055d8\transformed\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:30:13-85
 248            android:enabled="true"
-248-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\chama\.gradle\caches\transforms-3\714504ae62e321cf1b9b21d83fb70c44\transformed\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:31:13-35
+248-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\chama\.gradle\caches\transforms-3\bd95e3126c0fb29a7a006c043cb055d8\transformed\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:31:13-35
 249            android:exported="false" >
-249-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\chama\.gradle\caches\transforms-3\714504ae62e321cf1b9b21d83fb70c44\transformed\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:32:13-37
+249-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\chama\.gradle\caches\transforms-3\bd95e3126c0fb29a7a006c043cb055d8\transformed\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:32:13-37
 250        </receiver>
 251
 252        <service
-252-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\chama\.gradle\caches\transforms-3\714504ae62e321cf1b9b21d83fb70c44\transformed\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:35:9-38:40
+252-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\chama\.gradle\caches\transforms-3\bd95e3126c0fb29a7a006c043cb055d8\transformed\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:35:9-38:40
 253            android:name="com.google.android.gms.measurement.AppMeasurementService"
-253-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\chama\.gradle\caches\transforms-3\714504ae62e321cf1b9b21d83fb70c44\transformed\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:36:13-84
+253-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\chama\.gradle\caches\transforms-3\bd95e3126c0fb29a7a006c043cb055d8\transformed\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:36:13-84
 254            android:enabled="true"
-254-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\chama\.gradle\caches\transforms-3\714504ae62e321cf1b9b21d83fb70c44\transformed\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:37:13-35
+254-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\chama\.gradle\caches\transforms-3\bd95e3126c0fb29a7a006c043cb055d8\transformed\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:37:13-35
 255            android:exported="false" />
-255-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\chama\.gradle\caches\transforms-3\714504ae62e321cf1b9b21d83fb70c44\transformed\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:38:13-37
+255-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\chama\.gradle\caches\transforms-3\bd95e3126c0fb29a7a006c043cb055d8\transformed\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:38:13-37
 256        <service
-256-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\chama\.gradle\caches\transforms-3\714504ae62e321cf1b9b21d83fb70c44\transformed\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:39:9-43:72
+256-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\chama\.gradle\caches\transforms-3\bd95e3126c0fb29a7a006c043cb055d8\transformed\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:39:9-43:72
 257            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-257-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\chama\.gradle\caches\transforms-3\714504ae62e321cf1b9b21d83fb70c44\transformed\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:40:13-87
+257-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\chama\.gradle\caches\transforms-3\bd95e3126c0fb29a7a006c043cb055d8\transformed\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:40:13-87
 258            android:enabled="true"
-258-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\chama\.gradle\caches\transforms-3\714504ae62e321cf1b9b21d83fb70c44\transformed\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:41:13-35
+258-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\chama\.gradle\caches\transforms-3\bd95e3126c0fb29a7a006c043cb055d8\transformed\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:41:13-35
 259            android:exported="false"
-259-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\chama\.gradle\caches\transforms-3\714504ae62e321cf1b9b21d83fb70c44\transformed\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:42:13-37
+259-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\chama\.gradle\caches\transforms-3\bd95e3126c0fb29a7a006c043cb055d8\transformed\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:42:13-37
 260            android:permission="android.permission.BIND_JOB_SERVICE" />
-260-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\chama\.gradle\caches\transforms-3\714504ae62e321cf1b9b21d83fb70c44\transformed\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:43:13-69
+260-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\chama\.gradle\caches\transforms-3\bd95e3126c0fb29a7a006c043cb055d8\transformed\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:43:13-69
 261
 262        <meta-data
-262-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\chama\.gradle\caches\transforms-3\6adff63397c1ac50e331d47bdf613af2\transformed\jetified-play-services-basement-17.1.0\AndroidManifest.xml:23:9-25:69
+262-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\chama\.gradle\caches\transforms-3\b7195ab438248f66fe71b9845004229a\transformed\jetified-play-services-basement-17.1.0\AndroidManifest.xml:23:9-25:69
 263            android:name="com.google.android.gms.version"
-263-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\chama\.gradle\caches\transforms-3\6adff63397c1ac50e331d47bdf613af2\transformed\jetified-play-services-basement-17.1.0\AndroidManifest.xml:24:13-58
+263-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\chama\.gradle\caches\transforms-3\b7195ab438248f66fe71b9845004229a\transformed\jetified-play-services-basement-17.1.0\AndroidManifest.xml:24:13-58
 264            android:value="@integer/google_play_services_version" />
-264-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\chama\.gradle\caches\transforms-3\6adff63397c1ac50e331d47bdf613af2\transformed\jetified-play-services-basement-17.1.0\AndroidManifest.xml:25:13-66
+264-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\chama\.gradle\caches\transforms-3\b7195ab438248f66fe71b9845004229a\transformed\jetified-play-services-basement-17.1.0\AndroidManifest.xml:25:13-66
 265    </application>
 266
 267</manifest>

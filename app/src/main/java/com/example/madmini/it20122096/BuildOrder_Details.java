@@ -2,18 +2,25 @@ package com.example.madmini.it20122096;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.annotation.SuppressLint;
+import android.app.DownloadManager;
+import android.content.Context;
 import android.content.Intent;
+import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
+import android.os.Environment;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.bumptech.glide.Glide;
 import com.example.madmini.R;
 import com.example.madmini.it20122096.RcvAdapters.Quotation_List_Adapter;
 import com.example.madmini.it20122096.models.Orders;
@@ -59,6 +66,7 @@ public class BuildOrder_Details extends AppCompatActivity {
 
         slip_btn=(Button) findViewById(R.id.slip_btn);
         slip_btn.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View view) {
 
@@ -69,13 +77,19 @@ public class BuildOrder_Details extends AppCompatActivity {
                 View view1 =dialogPlus.getHolderView();
 
                 Button download =view1.findViewById(R.id.download);
+                Uri uri =Uri.parse(orders.getImage());
+
+
                 ImageView slip_img =view1.findViewById(R.id.slip_img);
+                Glide.with(BuildOrder_Details.this).load(orders.getImage()).into(slip_img);
+                System.out.println(orders.getImage());
 
 
                 dialogPlus.show();
                 download.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
+                        downloadImage(uri);
                         Toast.makeText(getApplicationContext(),q_id,Toast.LENGTH_SHORT).show();
                         dialogPlus.dismiss();
                     }
@@ -141,6 +155,20 @@ public class BuildOrder_Details extends AppCompatActivity {
 
     }
 
+    private void downloadImage(Uri uri) {
+        DownloadManager downloadManager =(DownloadManager) getSystemService(Context.DOWNLOAD_SERVICE);
+        DownloadManager.Request request =new DownloadManager.Request(uri);
+        request.setAllowedNetworkTypes(DownloadManager.Request.NETWORK_WIFI | DownloadManager.Request.NETWORK_MOBILE);
+
+        request.setTitle("Payment slip for orderID-"+orders.getId());
+        request.setDescription("Androind dada down;]load");
+        request.allowScanningByMediaScanner();
+        request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
+        request.setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS,"/images/"+"/"+"slip-"+orders.getId()+".png");
+        request.setMimeType("*/*");
+        downloadManager.enqueue(request);
+
+    }
 
 
 }

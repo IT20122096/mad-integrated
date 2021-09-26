@@ -3,20 +3,29 @@ package com.example.madmini.it20122096.models;
 import java.io.Serializable;
 
 public class Orders implements Serializable {
-    String id,Address,quotation_id,phone_num,name,date;
+    String id,Address,quotation_id,phone_num,name,date,image;
     double total;
 
-    public Orders() {
-    }
-
-    public Orders(String id, String address, String quotation_id, String phone_num, double total,String name,String date) {
+    public Orders(String id, String address, String quotation_id, String phone_num, String name, String date, String image, double total) {
         this.id = id;
         Address = address;
         this.quotation_id = quotation_id;
         this.phone_num = phone_num;
+        this.name = name;
+        this.date = date;
+        this.image = image;
         this.total = total;
-        this.name=name;
-        this.date=date;
+    }
+
+    public Orders() {
+    }
+
+    public String getImage() {
+        return image;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
     }
 
     public String getId() {

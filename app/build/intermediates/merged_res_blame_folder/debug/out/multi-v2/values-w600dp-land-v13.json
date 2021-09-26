@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w600dp-land-v13\\values-w600dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\chama\\.gradle\\caches\\transforms-3\\c2e76fb5e086b5c906002f45c03cd24a\\transformed\\material-1.4.0\\res\\values-w600dp-land-v13\\values-w600dp-land-v13.xml",
+                    "source": "C:\\Users\\chama\\.gradle\\caches\\transforms-3\\c3e531fd69846322d4a3fbba11048301\\transformed\\material-1.4.0\\res\\values-w600dp-land-v13\\values-w600dp-land-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

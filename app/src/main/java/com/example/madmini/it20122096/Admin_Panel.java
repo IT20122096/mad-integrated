@@ -9,6 +9,8 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.madmini.R;
+import com.example.madmini.it20115302.spare_parts_comp.AddSparePart;
+import com.example.madmini.it20115302.spare_parts_comp.ViewAllSpareParts;
 
 public class Admin_Panel extends AppCompatActivity {
 
@@ -35,6 +37,22 @@ public class Admin_Panel extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(Admin_Panel.this, PartOrder_Details.class));
+            }
+        });
+
+        part_edit_btn=(Button)findViewById(R.id.part_edit_btn);
+        part_edit_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Admin_Panel.this, ViewAllSpareParts.class));
+            }
+        });
+
+        part_add_btn=(Button) findViewById(R.id.part_add_btn);
+        part_add_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Admin_Panel.this, AddSparePart.class));
             }
         });
 
