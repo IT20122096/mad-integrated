@@ -2,6 +2,7 @@ package com.example.madmini.it20122096;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -45,6 +46,8 @@ public class Order_Details extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.it20122096_activity_oreder_details);
+        ActionBar actionBar =getSupportActionBar();
+        getSupportActionBar().setTitle("Order Details");
 
         od_name=(TextView)findViewById(R.id.od_name);
         od_address=(TextView)findViewById(R.id.od_address);

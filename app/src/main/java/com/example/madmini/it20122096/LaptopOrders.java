@@ -32,7 +32,8 @@ public class LaptopOrders extends AppCompatActivity implements Build_Order_Rcv_A
 
         FirebaseRecyclerOptions<Payment> options=
                 new FirebaseRecyclerOptions.Builder<Payment>()
-                        .setQuery(FirebaseDatabase.getInstance().getReference().child("OrdersTable").orderByChild("itemType").equalTo("laptop"),Payment.class)
+                        .setQuery(FirebaseDatabase.getInstance().getReference()
+                                .child("OrdersTable").orderByChild("itemType").equalTo("laptop"),Payment.class)
                         .build();
         rcv_adapter=new Build_Order_Rcv_Adapter(options,this::selectedOrder);
         order_rcv.setAdapter(rcv_adapter);

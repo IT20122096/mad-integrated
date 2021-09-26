@@ -27,13 +27,8 @@ com/example/madmini/it20122096/RcvAdapters/Build_Order_Rcv_Adapter.java
  com.example.madmini.it20122096.RcvAdapters.Build_Order_Rcv_Adapter$3
  com.example.madmini.it20122096.RcvAdapters.Build_Order_Rcv_Adapter$selectedOrder
  com.example.madmini.it20122096.RcvAdapters.Build_Order_Rcv_Adapter$viewHolder
-com/example/madmini/it20122096/Order_Details.java
- com.example.madmini.it20122096.Order_Details
- com.example.madmini.it20122096.Order_Details$1
- com.example.madmini.it20122096.Order_Details$2
- com.example.madmini.it20122096.Order_Details$2$1
- com.example.madmini.it20122096.Order_Details$3
- com.example.madmini.it20122096.Order_Details$3$1
+com/example/madmini/it20115302/spare_parts_comp/AddSparePart.java
+ com.example.madmini.it20115302.spare_parts_comp.AddSparePart
 com/example/madmini/it20122096/Add_Quotation_Item.java
  com.example.madmini.it20122096.Add_Quotation_Item
 com/example/madmini/it20122096/CreateDialog.java
@@ -64,15 +59,16 @@ com/example/madmini/it20122614/RegisterActivity.java
 com/example/madmini/it20122614/CartActivity.java
  com.example.madmini.it20122614.CartActivity
  com.example.madmini.it20122614.CartActivity$1
-com/example/madmini/it20122096/LaptopOrders.java
- com.example.madmini.it20122096.LaptopOrders
+com/example/madmini/it20115302/spare_parts_comp/Cart.java
+ com.example.madmini.it20115302.spare_parts_comp.Cart
 com/example/madmini/it20115302/spare_parts_comp/ViewAllSpareParts.java
  com.example.madmini.it20115302.spare_parts_comp.ViewAllSpareParts
  com.example.madmini.it20115302.spare_parts_comp.ViewAllSpareParts$1
  com.example.madmini.it20115302.spare_parts_comp.ViewAllSpareParts$2
  com.example.madmini.it20115302.spare_parts_comp.ViewAllSpareParts$2$1
-com/example/madmini/it20122096/PartOrders.java
- com.example.madmini.it20122096.PartOrders
+com/example/madmini/it20122614/AddressBookActivity.java
+ com.example.madmini.it20122614.AddressBookActivity
+ com.example.madmini.it20122614.AddressBookActivity$1
 com/example/madmini/it20122096/BulidPc.java
  com.example.madmini.it20122096.BulidPc
  com.example.madmini.it20122096.BulidPc$1
@@ -151,11 +147,17 @@ com/example/madmini/it20122096/RcvAdapters/Quotation_Rcv_Adapter.java
  com.example.madmini.it20122096.RcvAdapters.Quotation_Rcv_Adapter$3$2
  com.example.madmini.it20122096.RcvAdapters.Quotation_Rcv_Adapter$SelectedQuotation
  com.example.madmini.it20122096.RcvAdapters.Quotation_Rcv_Adapter$viewHolder
+com/example/madmini/it20122096/Order_Details.java
+ com.example.madmini.it20122096.Order_Details
+ com.example.madmini.it20122096.Order_Details$1
+ com.example.madmini.it20122096.Order_Details$2
+ com.example.madmini.it20122096.Order_Details$2$1
+ com.example.madmini.it20122096.Order_Details$3
+ com.example.madmini.it20122096.Order_Details$3$1
+com/example/madmini/it20122096/LaptopOrders.java
+ com.example.madmini.it20122096.LaptopOrders
 com/example/madmini/it20122096/Pc_Build_Orders.java
  com.example.madmini.it20122096.Pc_Build_Orders
-com/example/madmini/it20122614/AddressBookActivity.java
- com.example.madmini.it20122614.AddressBookActivity
- com.example.madmini.it20122614.AddressBookActivity$1
 com/example/madmini/it20122096/Admin_Panel.java
  com.example.madmini.it20122096.Admin_Panel
  com.example.madmini.it20122096.Admin_Panel$1
@@ -163,7 +165,5 @@ com/example/madmini/it20122096/Admin_Panel.java
  com.example.madmini.it20122096.Admin_Panel$3
  com.example.madmini.it20122096.Admin_Panel$4
  com.example.madmini.it20122096.Admin_Panel$5
-com/example/madmini/it20115302/spare_parts_comp/Cart.java
- com.example.madmini.it20115302.spare_parts_comp.Cart
-com/example/madmini/it20115302/spare_parts_comp/AddSparePart.java
- com.example.madmini.it20115302.spare_parts_comp.AddSparePart
+com/example/madmini/it20122096/PartOrders.java
+ com.example.madmini.it20122096.PartOrders
