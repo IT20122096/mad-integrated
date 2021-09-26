@@ -116,10 +116,6 @@ public class BulidPc extends AppCompatActivity implements CreateDialog.DialogLis
                         Toast.makeText(BulidPc.this,"Couldn't Create Your Quotation",Toast.LENGTH_LONG).show();
                     }
                 });
-
-
-
-
     }
 
     @Override
