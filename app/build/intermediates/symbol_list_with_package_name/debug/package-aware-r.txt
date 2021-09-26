@@ -2038,6 +2038,7 @@ id btn_add
 id btn_add_cart
 id btn_cancel
 id btn_cancel_add
+id btn_submit_add_cart
 id btn_update
 id build_btn
 id build_order_btn
@@ -2379,6 +2380,7 @@ id q_tot
 id q_tot_view
 id q_view
 id qty
+id quantity_num
 id radio
 id ratio
 id rcv1
@@ -2644,6 +2646,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_add_cart_spare_part
 layout activity_add_spare_part
 layout activity_show_spare_parts
 layout activity_update_spare_part

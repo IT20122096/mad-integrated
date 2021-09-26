@@ -9,6 +9,7 @@ import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -87,7 +88,7 @@ public class ShowSpareParts extends AppCompatActivity {
                             .setIcon(android.R.drawable.ic_dialog_alert)
                             .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
                                 public void onClick(DialogInterface dialog, int whichButton) {
-                                    DAOCart dao = new DAOCart();
+
                                     Cart cart = new Cart();
                                     // TODO: ask from user management guy
                                     cart.setUserName("demo_user");
@@ -95,11 +96,13 @@ public class ShowSpareParts extends AppCompatActivity {
                                     cart.setItemType("spare part");
                                     cart.setPrice(sparePart.getUnitPrice());
 
-                                    dao.add(cart).addOnSuccessListener( success -> {
-                                        Toast.makeText(ShowSpareParts.this, "Item added to cart", Toast.LENGTH_SHORT).show();
-                                    }).addOnFailureListener( error -> {
-                                        Toast.makeText(ShowSpareParts.this, ""+error.getMessage(), Toast.LENGTH_SHORT).show();
-                                    });
+                                    Intent i = new Intent(ShowSpareParts.this, AddCartSparePart.class);
+                                    i.putExtra("CART", cart);
+                                    startActivity(i);
+
+                                    finish();
+
+
                                 }})
                             .setNegativeButton(android.R.string.no, null).show();
 

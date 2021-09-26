@@ -57,6 +57,6 @@ public class PartOrders extends AppCompatActivity implements Build_Order_Rcv_Ada
 
     @Override
     public void selectedOrder(Payment payment) {
-        startActivity(new Intent(PartOrders.this, BuildOrder_Details.class).putExtra("Payment",payment));
+        startActivity(new Intent(PartOrders.this, Order_Details.class).putExtra("Payment",payment));
     }
 }

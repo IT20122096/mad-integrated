@@ -2,8 +2,10 @@ package com.example.madmini.it20115302.spare_parts_comp;
 
 import com.google.firebase.database.Exclude;
 
+import java.io.Serializable;
 
-public class Cart {
+
+public class Cart implements Serializable {
 
     // attributes
     @Exclude
@@ -11,6 +13,7 @@ public class Cart {
     private String userName;
     private String itemId;
     private String itemType;
+    private int quantity;
     private double price;
 
     // default constructor
@@ -18,10 +21,11 @@ public class Cart {
     }
 
     // overload constructor
-    public Cart(String userName, String itemId, String itemType, double price) {
+    public Cart(String userName, String itemId, String itemType, int quantity, double price) {
         this.userName = userName;
         this.itemId = itemId;
         this.itemType = itemType;
+        this.quantity = quantity;
         this.price = price;
     }
 
@@ -63,5 +67,13 @@ public class Cart {
 
     public void setPrice(double price) {
         this.price = price;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
     }
 }

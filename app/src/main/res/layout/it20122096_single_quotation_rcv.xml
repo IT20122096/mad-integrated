@@ -13,7 +13,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/gray">
+        android:background="@color/white">
 
         <ImageButton
             android:id="@+id/q_delete"
@@ -33,7 +33,7 @@
             android:layout_marginTop="16dp"
             android:layout_marginEnd="63dp"
             android:text="@string/change_Qname"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="24sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toStartOf="@+id/q_delete"
@@ -49,7 +49,7 @@
             android:layout_marginEnd="97dp"
             android:text="@string/Display_total"
             android:textAlignment="center"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -59,10 +59,11 @@
             android:id="@+id/q_view"
             android:layout_width="104dp"
             android:layout_height="49dp"
-            android:layout_marginStart="101dp"
-            android:layout_marginTop="7dp"
-            android:layout_marginEnd="16dp"
+            android:layout_marginStart="54dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="63dp"
             android:text="@string/view_btn"
+            android:textColor="@color/black"
             android:textStyle="bold"
             app:layout_constraintEnd_toStartOf="@+id/q_pay"
             app:layout_constraintStart_toStartOf="parent"
@@ -75,6 +76,7 @@
             android:layout_marginTop="7dp"
             android:layout_marginEnd="11dp"
             android:text="@string/pay_btn"
+            android:textColor="@color/black"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/q_price" />

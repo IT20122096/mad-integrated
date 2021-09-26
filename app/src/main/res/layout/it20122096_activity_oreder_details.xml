@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/grayBlack"
-    tools:context=".it20122096.BuildOrder_Details"><![CDATA[
+    tools:context=".it20122096.Order_Details"><![CDATA[
 
 
         android:layout_width="match_parent"
@@ -86,7 +86,7 @@
         android:layout_width="109dp"
         android:layout_height="36dp"
         android:layout_marginStart="27dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="60dp"
         android:text="@string/Phone_num"
         android:textColor="@color/white"
         android:textSize="20sp"
@@ -112,7 +112,7 @@
         android:layout_width="276dp"
         android:layout_height="58dp"
         android:layout_marginStart="27dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="35dp"
         android:layout_marginEnd="90dp"
         android:text="@string/get_payment_button"
         android:textSize="16sp"
@@ -127,11 +127,12 @@
         android:layout_width="281dp"
         android:layout_height="54dp"
         android:layout_marginStart="27dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="26dp"
         android:layout_marginEnd="85dp"
         android:text="@string/down_quotation"
         android:textSize="16sp"
         android:textStyle="bold"
+        android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -140,7 +141,7 @@
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="match_parent"
         android:layout_height="62dp"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="55dp"
         android:background="@color/orange"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -182,8 +183,8 @@
 
     <TextView
         android:id="@+id/od_address"
-        android:layout_width="194dp"
-        android:layout_height="106dp"
+        android:layout_width="197dp"
+        android:layout_height="65dp"
         android:layout_marginTop="42dp"
         android:layout_marginEnd="66dp"
         android:text="TextView"

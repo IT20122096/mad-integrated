@@ -2037,6 +2037,7 @@ int id btn_add 0x7f09006a
 int id btn_add_cart 0x7f09006b
 int id btn_cancel 0x7f09006c
 int id btn_cancel_add 0x7f09006d
+int id btn_submit_add_cart 0x7f09028c
 int id btn_update 0x7f09006e
 int id build_btn 0x7f09006f
 int id build_order_btn 0x7f090070
@@ -2378,6 +2379,7 @@ int id q_tot 0x7f0901c0
 int id q_tot_view 0x7f0901c1
 int id q_view 0x7f0901c2
 int id qty 0x7f090288
+int id quantity_num 0x7f09028d
 int id radio 0x7f0901c3
 int id ratio 0x7f0901c4
 int id rcv1 0x7f0901c5
@@ -2643,6 +2645,7 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0c0018
 int layout abc_search_view 0x7f0c0019
 int layout abc_select_dialog_material 0x7f0c001a
 int layout abc_tooltip 0x7f0c001b
+int layout activity_add_cart_spare_part 0x7f0c009f
 int layout activity_add_spare_part 0x7f0c001c
 int layout activity_show_spare_parts 0x7f0c001d
 int layout activity_update_spare_part 0x7f0c001e

@@ -46,238 +46,241 @@
 26-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:15:9-45
 27        <activity
 27-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:16:9-18:39
-28            android:name="com.example.madmini.it20122096.LaptopOrders"
-28-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:17:13-52
+28            android:name="com.example.madmini.it20115302.spare_parts_comp.AddCartSparePart"
+28-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:17:13-73
 29            android:exported="true" />
 29-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:18:13-36
 30        <activity
 30-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:19:9-21:39
-31            android:name="com.example.madmini.it20122614.EditProfileActivity"
-31-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:20:13-59
+31            android:name="com.example.madmini.it20122096.LaptopOrders"
+31-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:20:13-52
 32            android:exported="true" />
 32-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:21:13-36
 33        <activity
 33-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:22:9-24:39
-34            android:name="com.example.madmini.it20122614.ProfileActivity"
-34-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:23:13-55
+34            android:name="com.example.madmini.it20122614.EditProfileActivity"
+34-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:23:13-59
 35            android:exported="true" />
 35-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:24:13-36
 36        <activity
-36-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:25:9-28:20
-37            android:name="com.example.madmini.it20122614.RegisterActivity"
-37-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:26:13-56
-38            android:exported="true" >
+36-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:25:9-27:39
+37            android:name="com.example.madmini.it20122614.ProfileActivity"
+37-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:26:13-55
+38            android:exported="true" />
 38-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:27:13-36
-39        </activity>
-40        <activity
-40-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:29:9-31:39
-41            android:name="com.example.madmini.it20122614.PaymentActivity"
-41-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:30:13-55
-42            android:exported="true" />
-42-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:31:13-36
-43        <activity
-43-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:32:9-40:20
-44            android:name="com.example.madmini.it20122614.LoginActivity"
-44-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:33:13-53
-45            android:exported="true" >
-45-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:34:13-36
-46            <intent-filter>
-46-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:35:13-39:29
-47                <action android:name="android.intent.action.MAIN" />
-47-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:36:17-69
-47-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:36:25-66
-48
-49                <category android:name="android.intent.category.LAUNCHER" />
-49-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:38:17-77
-49-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:38:27-74
-50            </intent-filter>
-51        </activity>
-52        <activity
-52-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:41:9-43:39
-53            android:name="com.example.madmini.it20122614.CartActivity"
-53-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:42:13-52
-54            android:exported="true" />
-54-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:43:13-36
-55        <activity
-55-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:44:9-46:39
-56            android:name="com.example.madmini.it20122614.AddressBookActivity"
-56-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:45:13-59
-57            android:exported="true" />
-57-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:46:13-36
-58        <activity
-58-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:47:9-49:39
-59            android:name="com.example.madmini.it20115302.spare_parts_comp.ViewAllSpareParts"
-59-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:48:13-74
-60            android:exported="true" />
-60-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:49:13-36
-61        <activity
-61-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:50:9-52:39
-62            android:name="com.example.madmini.it20115302.spare_parts_comp.UpdateSparePart"
-62-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:51:13-72
-63            android:exported="true" />
-63-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:52:13-36
-64        <activity
-64-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:53:9-56:20
-65            android:name="com.example.madmini.it20115302.spare_parts_comp.ShowSpareParts"
-65-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:54:13-71
-66            android:exported="true" >
-66-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:55:13-36
-67        </activity>
-68        <activity
-68-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:57:9-59:39
-69            android:name="com.example.madmini.it20115302.spare_parts_comp.AddSparePart"
-69-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:58:13-69
-70            android:exported="true" />
-70-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:59:13-36
-71        <activity
-71-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:60:9-72:20
-72            android:name="com.example.madmini.it20122096.PartOrders"
-72-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:61:13-50
-73            android:exported="true"
-73-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:62:13-36
-74            android:parentActivityName="com.example.madmini.it20122096.Pc_Build_Orders" >
-74-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:63:13-69
-75
-76            <!--
-77            The meta-data tag is required if you support API level 15
-78            and lower
-79            -->
-80            <meta-data
-80-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:69:13-71:63
-81                android:name="android.support.PARENT_ACTIVITY"
-81-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:70:17-63
-82                android:value=".it20122096.Pc_Build_Orders" />
-82-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:71:17-60
-83        </activity>
-84        <activity
-84-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:73:9-85:20
-85            android:name="com.example.madmini.it20122096.BuildOrder_Details"
-85-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:74:13-58
-86            android:exported="true"
-86-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:75:13-36
-87            android:parentActivityName="com.example.madmini.it20122096.Pc_Build_Orders" >
-87-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:76:13-69
-88
-89            <!--
-90            The meta-data tag is required if you support API level 15
-91            and lower
-92            -->
-93            <meta-data
-93-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:69:13-71:63
-94                android:name="android.support.PARENT_ACTIVITY"
-94-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:70:17-63
-95                android:value=".it20122096.Pc_Build_Orders" />
-95-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:71:17-60
-96        </activity>
-97        <activity
-97-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:86:9-98:20
-98            android:name="com.example.madmini.it20122096.Pc_Build_Orders"
-98-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:87:13-55
-99            android:exported="true"
-99-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:88:13-36
-100            android:parentActivityName="com.example.madmini.it20122096.Pc_Build_Orders" >
-100-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:89:13-69
-101
-102            <!--
-103            The meta-data tag is required if you support API level 15
-104            and lower
-105            -->
-106            <meta-data
-106-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:69:13-71:63
-107                android:name="android.support.PARENT_ACTIVITY"
-107-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:70:17-63
-108                android:value=".it20122096.Pc_Build_Orders" />
-108-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:71:17-60
-109        </activity>
-110        <activity
-110-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:99:9-111:20
-111            android:name="com.example.madmini.it20122096.Admin_Panel"
-111-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:100:13-51
-112            android:exported="true"
-112-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:101:13-36
-113            android:parentActivityName="com.example.madmini.it20122096.DashBoard" >
-113-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:102:13-63
-114
-115            <!--
-116            The meta-data tag is required if you support API level 15
-117            and lower
-118            -->
-119            <meta-data
-119-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:69:13-71:63
-120                android:name="android.support.PARENT_ACTIVITY"
-120-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:70:17-63
-121                android:value=".it20122096.DashBoard" />
-121-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:71:17-60
-122        </activity>
-123        <activity
-123-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:112:9-124:20
-124            android:name="com.example.madmini.it20122096.Add_Quotation_Item"
-124-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:113:13-58
-125            android:exported="true"
-125-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:114:13-36
-126            android:parentActivityName="com.example.madmini.it20122096.BulidPc" >
-126-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:115:13-61
-127
-128            <!--
-129            The meta-data tag is required if you support API level 15
-130            and lower
-131            -->
-132            <meta-data
-132-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:69:13-71:63
-133                android:name="android.support.PARENT_ACTIVITY"
-133-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:70:17-63
-134                android:value=".it20122096.BulidPc" />
-134-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:71:17-60
-135        </activity>
-136        <activity
-136-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:125:9-137:20
-137            android:name="com.example.madmini.it20122096.Quotation_Items"
-137-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:126:13-55
-138            android:exported="true"
-138-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:127:13-36
-139            android:parentActivityName="com.example.madmini.it20122096.BulidPc" >
-139-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:128:13-61
-140
-141            <!--
-142            The meta-data tag is required if you support API level 15
-143            and lower
-144            -->
-145            <meta-data
-145-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:69:13-71:63
-146                android:name="android.support.PARENT_ACTIVITY"
-146-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:70:17-63
-147                android:value=".it20122096.BulidPc" />
-147-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:71:17-60
-148        </activity>
-149        <activity
-149-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:138:9-150:20
-150            android:name="com.example.madmini.it20122096.BulidPc"
-150-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:139:13-47
-151            android:exported="true"
-151-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:140:13-36
-152            android:parentActivityName="com.example.madmini.it20122096.DashBoard" >
-152-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:141:13-63
-153
-154            <!--
-155        The meta-data tag is required if you support API level 15
-156        and lower
-157            -->
-158            <meta-data
-158-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:69:13-71:63
-159                android:name="android.support.PARENT_ACTIVITY"
-159-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:70:17-63
-160                android:value=".it20122096.DashBoard" />
-160-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:71:17-60
-161        </activity>
-162        <activity
-162-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:151:9-155:20
-163            android:name="com.example.madmini.it20122096.DashBoard"
-163-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:152:13-49
-164            android:exported="true"
-164-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:153:13-36
-165            android:theme="@style/Theme.MaterialComponents.NoActionBar" >
-165-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:154:13-72
-166        </activity>
+39        <activity
+39-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:28:9-30:39
+40            android:name="com.example.madmini.it20122614.RegisterActivity"
+40-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:29:13-56
+41            android:exported="true" />
+41-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:30:13-36
+42        <activity
+42-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:31:9-33:39
+43            android:name="com.example.madmini.it20122614.PaymentActivity"
+43-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:32:13-55
+44            android:exported="true" />
+44-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:33:13-36
+45        <activity
+45-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:34:9-42:20
+46            android:name="com.example.madmini.it20122614.LoginActivity"
+46-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:35:13-53
+47            android:exported="true" >
+47-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:36:13-36
+48            <intent-filter>
+48-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:37:13-41:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:38:17-69
+49-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:38:25-66
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:40:17-77
+51-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:40:27-74
+52            </intent-filter>
+53        </activity>
+54        <activity
+54-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:43:9-45:39
+55            android:name="com.example.madmini.it20122614.CartActivity"
+55-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:44:13-52
+56            android:exported="true" />
+56-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:45:13-36
+57        <activity
+57-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:46:9-48:39
+58            android:name="com.example.madmini.it20122614.AddressBookActivity"
+58-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:47:13-59
+59            android:exported="true" />
+59-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:48:13-36
+60        <activity
+60-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:49:9-51:39
+61            android:name="com.example.madmini.it20115302.spare_parts_comp.ViewAllSpareParts"
+61-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:50:13-74
+62            android:exported="true" />
+62-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:51:13-36
+63        <activity
+63-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:52:9-54:39
+64            android:name="com.example.madmini.it20115302.spare_parts_comp.UpdateSparePart"
+64-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:53:13-72
+65            android:exported="true" />
+65-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:54:13-36
+66        <activity
+66-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:55:9-57:39
+67            android:name="com.example.madmini.it20115302.spare_parts_comp.ShowSpareParts"
+67-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:56:13-71
+68            android:exported="true" />
+68-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:57:13-36
+69        <activity
+69-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:58:9-60:39
+70            android:name="com.example.madmini.it20115302.spare_parts_comp.AddSparePart"
+70-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:59:13-69
+71            android:exported="true" />
+71-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:60:13-36
+72        <activity
+72-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:61:9-73:20
+73            android:name="com.example.madmini.it20122096.PartOrders"
+73-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:62:13-50
+74            android:exported="true"
+74-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:63:13-36
+75            android:parentActivityName="com.example.madmini.it20122096.Pc_Build_Orders" >
+75-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:64:13-69
+76
+77            <!--
+78            The meta-data tag is required if you support API level 15
+79            and lower
+80            -->
+81            <meta-data
+81-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:70:13-72:63
+82                android:name="android.support.PARENT_ACTIVITY"
+82-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:71:17-63
+83                android:value=".it20122096.Pc_Build_Orders" />
+83-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:72:17-60
+84        </activity>
+85        <activity
+85-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:74:9-86:20
+86            android:name="com.example.madmini.it20122096.Order_Details"
+86-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:75:13-53
+87            android:exported="true"
+87-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:76:13-36
+88            android:parentActivityName="com.example.madmini.it20122096.Pc_Build_Orders" >
+88-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:77:13-69
+89
+90            <!--
+91            The meta-data tag is required if you support API level 15
+92            and lower
+93            -->
+94            <meta-data
+94-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:70:13-72:63
+95                android:name="android.support.PARENT_ACTIVITY"
+95-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:71:17-63
+96                android:value=".it20122096.Pc_Build_Orders" />
+96-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:72:17-60
+97        </activity>
+98        <activity
+98-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:87:9-99:20
+99            android:name="com.example.madmini.it20122096.Pc_Build_Orders"
+99-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:88:13-55
+100            android:exported="true"
+100-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:89:13-36
+101            android:parentActivityName="com.example.madmini.it20122096.Pc_Build_Orders" >
+101-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:90:13-69
+102
+103            <!--
+104            The meta-data tag is required if you support API level 15
+105            and lower
+106            -->
+107            <meta-data
+107-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:70:13-72:63
+108                android:name="android.support.PARENT_ACTIVITY"
+108-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:71:17-63
+109                android:value=".it20122096.Pc_Build_Orders" />
+109-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:72:17-60
+110        </activity>
+111        <activity
+111-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:100:9-112:20
+112            android:name="com.example.madmini.it20122096.Admin_Panel"
+112-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:101:13-51
+113            android:exported="true"
+113-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:102:13-36
+114            android:parentActivityName="com.example.madmini.it20122096.DashBoard" >
+114-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:103:13-63
+115
+116            <!--
+117            The meta-data tag is required if you support API level 15
+118            and lower
+119            -->
+120            <meta-data
+120-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:70:13-72:63
+121                android:name="android.support.PARENT_ACTIVITY"
+121-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:71:17-63
+122                android:value=".it20122096.DashBoard" />
+122-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:72:17-60
+123        </activity>
+124        <activity
+124-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:113:9-125:20
+125            android:name="com.example.madmini.it20122096.Add_Quotation_Item"
+125-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:114:13-58
+126            android:exported="true"
+126-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:115:13-36
+127            android:parentActivityName="com.example.madmini.it20122096.BulidPc" >
+127-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:116:13-61
+128
+129            <!--
+130            The meta-data tag is required if you support API level 15
+131            and lower
+132            -->
+133            <meta-data
+133-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:70:13-72:63
+134                android:name="android.support.PARENT_ACTIVITY"
+134-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:71:17-63
+135                android:value=".it20122096.BulidPc" />
+135-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:72:17-60
+136        </activity>
+137        <activity
+137-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:126:9-138:20
+138            android:name="com.example.madmini.it20122096.Quotation_Items"
+138-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:127:13-55
+139            android:exported="true"
+139-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:128:13-36
+140            android:parentActivityName="com.example.madmini.it20122096.BulidPc" >
+140-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:129:13-61
+141
+142            <!--
+143            The meta-data tag is required if you support API level 15
+144            and lower
+145            -->
+146            <meta-data
+146-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:70:13-72:63
+147                android:name="android.support.PARENT_ACTIVITY"
+147-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:71:17-63
+148                android:value=".it20122096.BulidPc" />
+148-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:72:17-60
+149        </activity>
+150        <activity
+150-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:139:9-151:20
+151            android:name="com.example.madmini.it20122096.BulidPc"
+151-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:140:13-47
+152            android:exported="true"
+152-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:141:13-36
+153            android:parentActivityName="com.example.madmini.it20122096.DashBoard" >
+153-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:142:13-63
+154
+155            <!--
+156        The meta-data tag is required if you support API level 15
+157        and lower
+158            -->
+159            <meta-data
+159-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:70:13-72:63
+160                android:name="android.support.PARENT_ACTIVITY"
+160-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:71:17-63
+161                android:value=".it20122096.DashBoard" />
+161-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:72:17-60
+162        </activity>
+163        <activity
+163-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:152:9-155:75
+164            android:name="com.example.madmini.it20122096.DashBoard"
+164-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:153:13-49
+165            android:exported="true"
+165-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:154:13-36
+166            android:theme="@style/Theme.MaterialComponents.NoActionBar" />
+166-->C:\Users\chama\AndroidStudioProjects\MadMini\app\src\main\AndroidManifest.xml:155:13-72
 167
 168        <service
 168-->[com.google.firebase:firebase-database:20.0.2] C:\Users\chama\.gradle\caches\transforms-3\1da2b471820652ee8600702661b457dd\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:29:9-35:19

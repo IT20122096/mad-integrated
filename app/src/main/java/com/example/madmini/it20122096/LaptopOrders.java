@@ -56,6 +56,6 @@ public class LaptopOrders extends AppCompatActivity implements Build_Order_Rcv_A
 
     @Override
     public void selectedOrder(Payment payment) {
-        startActivity(new Intent(LaptopOrders.this, BuildOrder_Details.class).putExtra("Payment",payment));
+        startActivity(new Intent(LaptopOrders.this, Order_Details.class).putExtra("Payment",payment));
     }
 }

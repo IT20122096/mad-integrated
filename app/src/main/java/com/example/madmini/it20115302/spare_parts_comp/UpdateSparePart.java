@@ -60,21 +60,33 @@ public class UpdateSparePart extends AppCompatActivity {
 
         btnSubmit.setOnClickListener( view -> {
 
-            HashMap<String, Object> hashMap = new HashMap<>();
-            hashMap.put("name", editName.getText().toString());
-            hashMap.put("brand", editBrand.getText().toString());
-            hashMap.put("model", editModel.getText().toString());
-            hashMap.put("unitPrice", Double.parseDouble(editPrice.getText().toString()));
-            hashMap.put("desc", editDesc.getText().toString());
+            String regexStr = "^[0-9]*$";
+            if (this.isEmpty(editName) || this.isEmpty(editBrand) || this.isEmpty(editModel) || this.isEmpty(editPrice) || this.isEmpty(editDesc)){
+                Toast.makeText(UpdateSparePart.this, "Please fill mandatory fields", Toast.LENGTH_SHORT).show();
+            }
+            else if(!editPrice.getText().toString().trim().matches(regexStr))
+            {
+                Toast.makeText(UpdateSparePart.this, "Please enter valid price", Toast.LENGTH_SHORT).show();
+            }
+            else {
 
-            dao.update(sparePart_edit.getKey(), hashMap).addOnSuccessListener( success -> {
-                Toast.makeText(this, "Spare Part Updated", Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(UpdateSparePart.this, ViewAllSpareParts.class);
-                startActivity(intent);
-                finish();
-            }).addOnFailureListener( error -> {
-                Toast.makeText(this, ""+error.getMessage(), Toast.LENGTH_SHORT).show();
-            });
+                HashMap<String, Object> hashMap = new HashMap<>();
+                hashMap.put("name", editName.getText().toString());
+                hashMap.put("brand", editBrand.getText().toString());
+                hashMap.put("model", editModel.getText().toString());
+                hashMap.put("unitPrice", Double.parseDouble(editPrice.getText().toString()));
+                hashMap.put("desc", editDesc.getText().toString());
+
+                dao.update(sparePart_edit.getKey(), hashMap).addOnSuccessListener(success -> {
+                    Toast.makeText(this, "Spare Part Updated", Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(UpdateSparePart.this, ViewAllSpareParts.class);
+                    startActivity(intent);
+                    finish();
+                }).addOnFailureListener(error -> {
+                    Toast.makeText(this, "" + error.getMessage(), Toast.LENGTH_SHORT).show();
+                });
+
+            }
 
 
         });
@@ -85,5 +97,9 @@ public class UpdateSparePart extends AppCompatActivity {
             startActivity(intent);
             finish();
         });
+    }
+
+    private boolean isEmpty(EditText etText) {
+        return etText.getText().toString().trim().length() == 0;
     }
 }

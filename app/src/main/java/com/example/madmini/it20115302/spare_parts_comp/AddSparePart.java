@@ -47,23 +47,34 @@ public class AddSparePart extends AppCompatActivity {
         DAOSpareParts dao = new DAOSpareParts();
 
         btnSubmit.setOnClickListener( view -> {
-            SparePart sparePart = new SparePart(
-                    editName.getText().toString(),
-                    editBrand.getText().toString(),
-                    editModel.getText().toString(),
-                    Double.parseDouble(editPrice.getText().toString()),
-                    editDesc.getText().toString());
+            String regexStr = "^[0-9]*$";
+            if (this.isEmpty(editName) || this.isEmpty(editBrand) || this.isEmpty(editModel) || this.isEmpty(editPrice) || this.isEmpty(editDesc)){
+                Toast.makeText(AddSparePart.this, "Please fill mandatory fields", Toast.LENGTH_SHORT).show();
+            }
+            else if(!editPrice.getText().toString().trim().matches(regexStr))
+            {
+                Toast.makeText(AddSparePart.this, "Please enter valid price", Toast.LENGTH_SHORT).show();
+            }
+            else {
+                SparePart sparePart = new SparePart(
+                        editName.getText().toString(),
+                        editBrand.getText().toString(),
+                        editModel.getText().toString(),
+                        Double.parseDouble(editPrice.getText().toString()),
+                        editDesc.getText().toString());
 
-            dao.add(sparePart).addOnSuccessListener( success -> {
-                Toast.makeText(this, "Spare Part Inserted", Toast.LENGTH_SHORT).show();
+                dao.add(sparePart).addOnSuccessListener( success -> {
+                    Toast.makeText(this, "Spare Part Inserted", Toast.LENGTH_SHORT).show();
 
-                // TODO: set the correct direction
-                Intent intent = new Intent(AddSparePart.this, DashBoard.class);
-                startActivity(intent);
-                finish();
-            }).addOnFailureListener( error -> {
-                Toast.makeText(this, ""+error.getMessage(), Toast.LENGTH_SHORT).show();
-            });
+                    // TODO: set the correct direction
+                    Intent intent = new Intent(AddSparePart.this, DashBoard.class);
+                    startActivity(intent);
+                    finish();
+                }).addOnFailureListener( error -> {
+                    Toast.makeText(this, ""+error.getMessage(), Toast.LENGTH_SHORT).show();
+                });
+            }
+
         });
 
         btnCancel.setOnClickListener(view -> {
@@ -73,5 +84,9 @@ public class AddSparePart extends AppCompatActivity {
         });
 
 
+    }
+
+    private boolean isEmpty(EditText etText) {
+        return etText.getText().toString().trim().length() == 0;
     }
 }

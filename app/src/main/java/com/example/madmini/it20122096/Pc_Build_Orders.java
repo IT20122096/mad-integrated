@@ -57,6 +57,6 @@ public class Pc_Build_Orders extends AppCompatActivity implements Build_Order_Rc
 
     @Override
     public void selectedOrder(Payment payment) {
-        startActivity(new Intent(Pc_Build_Orders.this, BuildOrder_Details.class).putExtra("Payment",payment));
+        startActivity(new Intent(Pc_Build_Orders.this, Order_Details.class).putExtra("Payment",payment));
     }
 }

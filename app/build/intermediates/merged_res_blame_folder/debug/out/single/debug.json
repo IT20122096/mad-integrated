@@ -228,6 +228,10 @@
         "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\it20122096_activity_pc_build_orders.xml"
     },
     {
+        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_add_cart_spare_part.xml.flat",
+        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\activity_add_cart_spare_part.xml"
+    },
+    {
         "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_it20122614_activity_cart.xml.flat",
         "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\it20122614_activity_cart.xml"
     },

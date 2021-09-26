@@ -25,6 +25,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.MadMini" >
         <activity
+            android:name="com.example.madmini.it20115302.spare_parts_comp.AddCartSparePart"
+            android:exported="true" />
+        <activity
             android:name="com.example.madmini.it20122096.LaptopOrders"
             android:exported="true" />
         <activity
@@ -35,8 +38,7 @@
             android:exported="true" />
         <activity
             android:name="com.example.madmini.it20122614.RegisterActivity"
-            android:exported="true" >
-        </activity>
+            android:exported="true" />
         <activity
             android:name="com.example.madmini.it20122614.PaymentActivity"
             android:exported="true" />
@@ -63,8 +65,7 @@
             android:exported="true" />
         <activity
             android:name="com.example.madmini.it20115302.spare_parts_comp.ShowSpareParts"
-            android:exported="true" >
-        </activity>
+            android:exported="true" />
         <activity
             android:name="com.example.madmini.it20115302.spare_parts_comp.AddSparePart"
             android:exported="true" />
@@ -82,7 +83,7 @@
                 android:value=".it20122096.Pc_Build_Orders" />
         </activity>
         <activity
-            android:name="com.example.madmini.it20122096.BuildOrder_Details"
+            android:name="com.example.madmini.it20122096.Order_Details"
             android:exported="true"
             android:parentActivityName="com.example.madmini.it20122096.Pc_Build_Orders" >
 
@@ -162,8 +163,7 @@
         <activity
             android:name="com.example.madmini.it20122096.DashBoard"
             android:exported="true"
-            android:theme="@style/Theme.MaterialComponents.NoActionBar" >
-        </activity>
+            android:theme="@style/Theme.MaterialComponents.NoActionBar" />
 
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"
