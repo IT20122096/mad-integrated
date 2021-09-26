@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.madmini">
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -12,6 +14,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MadMini">
         <activity
+            android:name=".it20122096.OrderDetails"
+            android:exported="true" />
+        <activity
+            android:name=".it20122096.LaptopOrders"
+            android:exported="true" />
+        <activity
             android:name=".it20122614.EditProfileActivity"
             android:exported="true" />
         <activity
@@ -19,17 +27,13 @@
             android:exported="true" />
         <activity
             android:name=".it20122614.RegisterActivity"
-            android:exported="true" >
-
-
-        </activity>
-
+            android:exported="true"></activity>
         <activity
             android:name=".it20122614.PaymentActivity"
             android:exported="true" />
         <activity
             android:name=".it20122614.LoginActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -50,14 +54,12 @@
             android:exported="true" />
         <activity
             android:name=".it20115302.spare_parts_comp.ShowSpareParts"
-            android:exported="true">
-
-        </activity>
+            android:exported="true"></activity>
         <activity
             android:name=".it20115302.spare_parts_comp.AddSparePart"
             android:exported="true" />
         <activity
-            android:name=".it20122096.PartOrder_Details"
+            android:name=".it20122096.PartOrders"
             android:exported="true"
             android:parentActivityName=".it20122096.Pc_Build_Orders">
 
@@ -150,9 +152,7 @@
         <activity
             android:name=".it20122096.DashBoard"
             android:exported="true"
-            android:theme="@style/Theme.MaterialComponents.NoActionBar" >
-
-        </activity>
+            android:theme="@style/Theme.MaterialComponents.NoActionBar"></activity>
     </application>
 
 </manifest>

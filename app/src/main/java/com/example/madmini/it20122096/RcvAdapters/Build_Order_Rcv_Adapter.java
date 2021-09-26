@@ -13,23 +13,40 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.madmini.R;
 import com.example.madmini.it20122096.models.Orders;
+import com.example.madmini.it20122614.Payment;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
-public class Build_Order_Rcv_Adapter extends FirebaseRecyclerAdapter<Orders,Build_Order_Rcv_Adapter.viewHolder> {
+public class Build_Order_Rcv_Adapter extends FirebaseRecyclerAdapter<Payment,Build_Order_Rcv_Adapter.viewHolder> {
 
     selectedOrder selectedOrder;
 
-    public Build_Order_Rcv_Adapter(@NonNull FirebaseRecyclerOptions<Orders> options,selectedOrder selectedOrder) {
+    public Build_Order_Rcv_Adapter(@NonNull FirebaseRecyclerOptions<Payment> options,selectedOrder selectedOrder) {
         super(options);
         this.selectedOrder=selectedOrder;
     }
 
     @Override
-    protected void onBindViewHolder(@NonNull viewHolder holder, @SuppressLint("RecyclerView") final int position, @NonNull final Orders model) {
+    protected void onBindViewHolder(@NonNull viewHolder holder, @SuppressLint("RecyclerView") final int position, @NonNull final Payment model) {
 
-        holder.o_name.setText(model.getName());
+        System.out.println(model.getuId());
+        FirebaseDatabase.getInstance().getReference().child("AddressBook").child(model.getuId())
+                .addListenerForSingleValueEvent(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(@NonNull DataSnapshot snapshot) {
+                        holder.o_name.setText(snapshot.child("name").getValue().toString());
+                    }
+
+                    @Override
+                    public void onCancelled(@NonNull DatabaseError error) {
+
+                    }
+                });
         holder.o_date.setText(model.getDate());
 
         holder.view_btn.setOnClickListener(new View.OnClickListener() {
@@ -42,7 +59,7 @@ public class Build_Order_Rcv_Adapter extends FirebaseRecyclerAdapter<Orders,Buil
             @Override
             public void onClick(View view) {
 
-                FirebaseDatabase.getInstance().getReference().child("Orders")
+                FirebaseDatabase.getInstance().getReference().child("OrdersTable")
                         .child(getRef(position).getKey()).removeValue();
                 Toast.makeText(holder.o_name.getContext(),"Order removed",Toast.LENGTH_SHORT).show();
             }
@@ -58,7 +75,7 @@ public class Build_Order_Rcv_Adapter extends FirebaseRecyclerAdapter<Orders,Buil
     }
 
     public interface selectedOrder{
-        void selectedOrder(Orders orders);
+        void selectedOrder(Payment payment);
     }
 
     public class viewHolder extends RecyclerView.ViewHolder {

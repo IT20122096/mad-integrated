@@ -1,10 +1,13 @@
 package com.example.madmini.it20122614;
 
 import android.annotation.SuppressLint;
+import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -20,21 +23,46 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.FirebaseDatabase;
 
+import java.util.List;
 
-public class CartAdapter extends FirebaseRecyclerAdapter<Order, CartAdapter.cartViewHolder> {
+
+
+public class CartAdapter extends FirebaseRecyclerAdapter<ItemOrder, CartAdapter.cartViewHolder> {
     private FirebaseUser firebaseUser;
+    private Context context;
+    private SelectItem selectItem;
+//    private List<Order> orderList;
+
+
     public CartAdapter(
-            @NonNull FirebaseRecyclerOptions<Order> options){
+            @NonNull FirebaseRecyclerOptions<ItemOrder> options, Context context, SelectItem selectItem){
+        super(options);
+        this.context = context;
+        this.selectItem = selectItem;
+    }
+    public CartAdapter(
+            @NonNull FirebaseRecyclerOptions<ItemOrder> options){
         super(options);
     }
     @SuppressLint("SetTextI18n")
     @Override
-    protected void onBindViewHolder(@NonNull cartViewHolder holder, @SuppressLint("RecyclerView") final int position, @NonNull Order model) {
+    protected void onBindViewHolder(@NonNull cartViewHolder holder, @SuppressLint("RecyclerView") final int position, @NonNull ItemOrder model) {
 //        firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
 
         holder.type.setText(model.getItemType());
         holder.price.setText(model.getPrice()+"");
-//        holder.quantity.setText(model.getQuantity()+"");
+
+        holder.checkout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                selectItem.selectItems(model);
+                System.out.println("========================Adapter===================================");
+                System.out.println(model.getItemId());
+                System.out.println("=========================================");
+            }
+        });
+
+
 
         holder.closeBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -71,16 +99,24 @@ public class CartAdapter extends FirebaseRecyclerAdapter<Order, CartAdapter.cart
         return new CartAdapter.cartViewHolder(view);
     }
 
+    public interface SelectItem{
+        void selectItems(ItemOrder itemOrder);
+    }
+
+
     public class cartViewHolder extends RecyclerView.ViewHolder {
 
-        TextView name, price, quantity, type;
+        TextView price, quantity, type;
         ImageButton closeBtn;
+        Button checkout;
         public cartViewHolder(@NonNull View itemView){
             super(itemView);
             type = itemView.findViewById(R.id.firstname);
 //            quantity = itemView.findViewById(R.id.lastname);
             price = itemView.findViewById(R.id.lastname);
             closeBtn = itemView.findViewById(R.id.imageButtonClose);
+            checkout = itemView.findViewById(R.id.checkoutBtnIdId);
+//            name = itemView.findViewById(R.id.textView7itemId);
 
 
 

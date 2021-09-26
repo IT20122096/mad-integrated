@@ -25,6 +25,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.MadMini" >
         <activity
+            android:name="com.example.madmini.it20122096.LaptopOrders"
+            android:exported="true" />
+        <activity
             android:name="com.example.madmini.it20122614.EditProfileActivity"
             android:exported="true" />
         <activity
@@ -66,7 +69,7 @@
             android:name="com.example.madmini.it20115302.spare_parts_comp.AddSparePart"
             android:exported="true" />
         <activity
-            android:name="com.example.madmini.it20122096.PartOrder_Details"
+            android:name="com.example.madmini.it20122096.PartOrders"
             android:exported="true"
             android:parentActivityName="com.example.madmini.it20122096.Pc_Build_Orders" >
 
@@ -230,6 +233,11 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </service>
+
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.example.madmini.com.squareup.picasso"
+            android:exported="false" />
 
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"

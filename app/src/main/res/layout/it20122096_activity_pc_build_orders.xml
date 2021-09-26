@@ -8,11 +8,14 @@
     tools:context=".it20122096.Pc_Build_Orders">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/order_rcv"
+        android:id="@+id/order_rcv3"
         android:layout_width="391dp"
         android:layout_height="533dp"
-        android:layout_marginTop="61dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="60dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
@@ -20,7 +23,7 @@
         android:layout_height="62dp"
         android:layout_marginTop="28dp"
         android:background="@color/orange"
-        app:layout_constraintTop_toBottomOf="@+id/order_rcv">
+        app:layout_constraintTop_toBottomOf="@+id/order_rcv3">
 
         <LinearLayout
             android:layout_width="match_parent"

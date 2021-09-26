@@ -252,6 +252,10 @@
         "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\drawable\\icons8_download.gif"
     },
     {
+        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_it20122096_activity_laptop_orders.xml.flat",
+        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\it20122096_activity_laptop_orders.xml"
+    },
+    {
         "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_layout_item_spare_part.xml.flat",
         "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\layout_item_spare_part.xml"
     },

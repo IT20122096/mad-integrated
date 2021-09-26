@@ -18,6 +18,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.madmini.R;
+import com.example.madmini.it20122096.models.Quotations;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -28,11 +29,15 @@ import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
 
 public class PaymentActivity extends AppCompatActivity {
     Button attach;
     Button confirm;
-    Uri FilePathUri;
+    Uri imageUri;
     StorageReference storageReference;
     DatabaseReference databaseReference;
     int Image_Request_Code = 7;
@@ -42,9 +47,14 @@ public class PaymentActivity extends AppCompatActivity {
     String uId;
     TextView txtName;
     Payment imageUploadInfo;
-    String name, cNumber, address;
-    OrdersTable ordersTable;
-    Totals totals;
+    List<String> list = new ArrayList<>();
+    String itemType;
+    String iId = null;
+    String quotation_id = null;
+    int price;
+    Date date;
+    String nowDate;
+
 
 
     @Override
@@ -62,39 +72,26 @@ public class PaymentActivity extends AppCompatActivity {
         databaseReference = FirebaseDatabase.getInstance().getReference("Images");
         progressDialog = new ProgressDialog(PaymentActivity.this);
         uId = firebaseUser.getUid().toString();
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
+        nowDate = simpleDateFormat.format(new Date());
+        System.out.println(nowDate);
+        System.out.println("============================================================");
 
+        Intent intent = getIntent();
+        if(intent.getExtras()!=null){
+            ItemOrder itemOrder = (ItemOrder) intent.getSerializableExtra("ordered");
 
-//        databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
-//            @Override
-//            public void onDataChange(@NonNull DataSnapshot snapshot) {
-//                if(snapshot.hasChildren()){
-////                    name = snapshot.child("name").getValue().toString();
-//                    String totalP = Totals.getTotal();
-//                    System.out.println(totalP);
-//
-////                    cNumber = snapshot.child("cNumber").getValue().toString();
-////                    address = snapshot.child("address").getValue().toString();
-//                    ordersTable.setName(name);
-//                    ordersTable.setAddress(address);
-//                    ordersTable.setcNumber(cNumber);
-//                    ordersTable.setTotal(totalP);
-//
-//                    databaseReference.child(uId).setValue(ordersTable);
-//
-//
-////                                        imageUploadInfo.setName(snapshot.child("name").getValue().toString());
-////                                        imageUploadInfo.setcNumber(snapshot.child("cNumber").getValue().toString());
-////                                        imageUploadInfo.setAddress(snapshot.child("address").getValue().toString());
-//                }else{
-//                    Toast.makeText(PaymentActivity.this, "No source", Toast.LENGTH_SHORT).show();
-//                }
-//            }
-//
-//            @Override
-//            public void onCancelled(@NonNull DatabaseError error) {
-//
-//            }
-//        });
+            itemType = itemOrder.getItemType();
+            price = itemOrder.getPrice();
+            iId = itemOrder.getItemId();
+
+        }
+//        Intent intent1 =getIntent();
+//        Quotations quotations = (Quotations) intent1.getSerializableExtra("quotation");
+//        quotation_id = quotations.getId();
+//        itemType="pc build";
+//        price=(int)quotations.getTotal();
+
 
         attach.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -108,7 +105,7 @@ public class PaymentActivity extends AppCompatActivity {
         confirm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                UploadImage();
+                UploadImage(imageUri);
             }
         });
 
@@ -126,10 +123,10 @@ public class PaymentActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == Image_Request_Code && resultCode == RESULT_OK && data != null && data.getData() != null) {
 
-            FilePathUri = data.getData();
+            imageUri = data.getData();
 
             try {
-                Bitmap bitmap = MediaStore.Images.Media.getBitmap(getContentResolver(), FilePathUri);
+                Bitmap bitmap = MediaStore.Images.Media.getBitmap(getContentResolver(), imageUri);
 //                imgview.setImageBitmap(bitmap);
             }
             catch (IOException e) {
@@ -139,25 +136,36 @@ public class PaymentActivity extends AppCompatActivity {
         }
     }
 
-    private void UploadImage() {
-        if (FilePathUri != null) {
+    private void UploadImage(Uri uri) {
+        if (imageUri != null) {
 
             progressDialog.setTitle("Image is Uploading...");
             progressDialog.show();
-            StorageReference storageReference2 = storageReference.child(System.currentTimeMillis() + "." + GetFileExtension(FilePathUri));
-            storageReference2.putFile(FilePathUri)
+            StorageReference storageReference2 = storageReference.child(System.currentTimeMillis() + "." + GetFileExtension(imageUri));
+            storageReference2.putFile(imageUri)
                     .addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
                         @Override
                         public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
                             databaseReference = FirebaseDatabase.getInstance().getReference().child("OrdersTable");
                             progressDialog.dismiss();
-                            Toast.makeText(getApplicationContext(), "Image Uploaded Successfully ", Toast.LENGTH_LONG).show();
-
-                            imageUploadInfo = new Payment(uId, taskSnapshot.getUploadSessionUri().toString());
 
 
-                            String ImageUploadId = databaseReference.push().getKey();
-                            databaseReference.child(ImageUploadId).setValue(imageUploadInfo);
+//                            DatabaseReference readRef = FirebaseDatabase.getInstance().getReference().child("");
+//                            Uri url = storageReference2.getDownloadUrl()
+                            storageReference2.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
+                                @Override
+                                public void onSuccess(Uri uri) {
+                                    imageUploadInfo = new Payment(uId, uri.toString(), itemType, price,iId, nowDate,quotation_id);
+                                    String ImageUploadId = databaseReference.push().getKey();
+                                    databaseReference.child(ImageUploadId).setValue(imageUploadInfo);
+                                    Toast.makeText(getApplicationContext(), "Image Uploaded Successfully ", Toast.LENGTH_LONG).show();
+                                }
+                            });
+
+//                            imageUploadInfo = new Payment(uId, taskSnapshot.getUploadSessionUri().toString(),iId, itemType, price);
+
+
+
                         }
                     });
         }
@@ -166,5 +174,7 @@ public class PaymentActivity extends AppCompatActivity {
             Toast.makeText(PaymentActivity.this, "Please Select Image or Add Image Name", Toast.LENGTH_LONG).show();
 
         }
+
     }
+
 }

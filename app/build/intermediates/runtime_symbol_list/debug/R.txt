@@ -2066,6 +2066,7 @@ int id chain 0x7f090087
 int id chains 0x7f090088
 int id checkbox 0x7f090089
 int id checked 0x7f09008a
+int id checkoutBtnIdId 0x7f090289
 int id chip 0x7f09008b
 int id chip1 0x7f09008c
 int id chip2 0x7f09008d
@@ -2332,7 +2333,7 @@ int id od_pno 0x7f090193
 int id od_pno_h 0x7f090194
 int id off 0x7f090195
 int id on 0x7f090196
-int id order_rcv 0x7f090197
+int id order_rcv3 0x7f09028b
 int id outline 0x7f090198
 int id outward 0x7f090199
 int id overshoot 0x7f09019a
@@ -2672,6 +2673,7 @@ int layout it20122096_activity_add_quotation_item 0x7f0c0036
 int layout it20122096_activity_admin_panel 0x7f0c0037
 int layout it20122096_activity_bulid_pc 0x7f0c0038
 int layout it20122096_activity_dashboard 0x7f0c0039
+int layout it20122096_activity_laptop_orders 0x7f0c009e
 int layout it20122096_activity_oreder_details 0x7f0c003a
 int layout it20122096_activity_part_order_details 0x7f0c003b
 int layout it20122096_activity_pc_build_orders 0x7f0c003c

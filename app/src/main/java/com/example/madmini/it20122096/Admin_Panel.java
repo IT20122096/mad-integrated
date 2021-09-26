@@ -36,7 +36,7 @@ public class Admin_Panel extends AppCompatActivity {
         part_order_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(Admin_Panel.this, PartOrder_Details.class));
+                startActivity(new Intent(Admin_Panel.this, PartOrders.class));
             }
         });
 
@@ -53,6 +53,14 @@ public class Admin_Panel extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(Admin_Panel.this, AddSparePart.class));
+            }
+        });
+
+        laptop_order_btn= (Button) findViewById(R.id.laptop_order_btn);
+        laptop_order_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Admin_Panel.this, LaptopOrders.class));
             }
         });
 

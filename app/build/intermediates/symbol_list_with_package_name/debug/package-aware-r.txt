@@ -2067,6 +2067,7 @@ id chain
 id chains
 id checkbox
 id checked
+id checkoutBtnIdId
 id chip
 id chip1
 id chip2
@@ -2100,7 +2101,6 @@ id cut
 id d_name
 id dark
 id date_picker_actions
-id dec_btn
 id decelerate
 id decelerateAndComplete
 id decor_content_parent
@@ -2220,7 +2220,6 @@ id imageViewLogOut
 id img_spare_part
 id img_spare_part_client
 id immediateStop
-id inc_btn
 id included
 id increment_btn
 id info
@@ -2335,7 +2334,7 @@ id od_pno
 id od_pno_h
 id off
 id on
-id order_rcv
+id order_rcv3
 id outline
 id outward
 id overshoot
@@ -2379,6 +2378,7 @@ id q_price
 id q_tot
 id q_tot_view
 id q_view
+id qty
 id radio
 id ratio
 id rcv1
@@ -2674,6 +2674,7 @@ layout it20122096_activity_add_quotation_item
 layout it20122096_activity_admin_panel
 layout it20122096_activity_bulid_pc
 layout it20122096_activity_dashboard
+layout it20122096_activity_laptop_orders
 layout it20122096_activity_oreder_details
 layout it20122096_activity_part_order_details
 layout it20122096_activity_pc_build_orders
@@ -2969,6 +2970,7 @@ string pc_build
 string price
 string project_id
 string q_items
+string quan
 string remove
 string save_button
 string search_menu_title

@@ -24,16 +24,18 @@ import com.bumptech.glide.Glide;
 import com.example.madmini.R;
 import com.example.madmini.it20122096.RcvAdapters.Quotation_List_Adapter;
 import com.example.madmini.it20122096.models.Orders;
+import com.example.madmini.it20122614.Payment;
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 import com.orhanobut.dialogplus.DialogPlus;
 import com.orhanobut.dialogplus.ViewHolder;
 
 public class BuildOrder_Details extends AppCompatActivity {
 
-    Orders orders;
+    Payment payment;
     TextView od_name,od_address,od_pno,od_amount,od_date;
     Button slip_btn, down_btn;
     String q_id;
@@ -55,14 +57,26 @@ public class BuildOrder_Details extends AppCompatActivity {
 
         Intent intent =getIntent();
         if(intent.getExtras()!=null){
-            orders = (Orders) intent.getSerializableExtra("Orders");
+            payment = (Payment) intent.getSerializableExtra("Payment");
         }
-        od_name.setText(orders.getName());
-        od_address.setText(orders.getAddress());
-        od_amount.setText(Double.toString(orders.getTotal())+"0");
-        od_pno.setText(orders.getPhone_num());
-        od_date.setText(orders.getDate());
-        q_id=orders.getQuotation_id();
+        FirebaseDatabase.getInstance().getReference("AddressBook").child(payment.getuId())
+                .addListenerForSingleValueEvent(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(@NonNull DataSnapshot snapshot) {
+                        od_name.setText(snapshot.child("name").getValue().toString());
+                        od_address.setText(snapshot.child("address").getValue().toString());
+                        od_pno.setText(snapshot.child("cNumber").getValue().toString());
+                    }
+
+                    @Override
+                    public void onCancelled(@NonNull DatabaseError error) {
+
+                    }
+                });
+
+        od_amount.setText(Double.toString(payment.getPrices())+"0");
+        od_date.setText(payment.getDate());
+        q_id=payment.getQuotation_id();
 
         slip_btn=(Button) findViewById(R.id.slip_btn);
         slip_btn.setOnClickListener(new View.OnClickListener() {
@@ -77,19 +91,19 @@ public class BuildOrder_Details extends AppCompatActivity {
                 View view1 =dialogPlus.getHolderView();
 
                 Button download =view1.findViewById(R.id.download);
-                Uri uri =Uri.parse(orders.getImage());
+                Uri uri =Uri.parse(payment.getImageURL());
 
 
                 ImageView slip_img =view1.findViewById(R.id.slip_img);
-                Glide.with(BuildOrder_Details.this).load(orders.getImage()).into(slip_img);
-                System.out.println(orders.getImage());
+                Glide.with(BuildOrder_Details.this).load(payment.getImageURL()).into(slip_img);
+                System.out.println(payment.getImageURL());
 
 
                 dialogPlus.show();
                 download.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        downloadImage(uri);
+                     downloadImage(uri);
                         Toast.makeText(getApplicationContext(),q_id,Toast.LENGTH_SHORT).show();
                         dialogPlus.dismiss();
                     }
@@ -160,11 +174,11 @@ public class BuildOrder_Details extends AppCompatActivity {
         DownloadManager.Request request =new DownloadManager.Request(uri);
         request.setAllowedNetworkTypes(DownloadManager.Request.NETWORK_WIFI | DownloadManager.Request.NETWORK_MOBILE);
 
-        request.setTitle("Payment slip for orderID-"+orders.getId());
+        request.setTitle("Payment slip for orderID-");
         request.setDescription("Androind dada down;]load");
         request.allowScanningByMediaScanner();
         request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
-        request.setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS,"/images/"+"/"+"slip-"+orders.getId()+".png");
+        request.setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS,"/images/"+"/"+"slip-"+".png");
         request.setMimeType("*/*");
         downloadManager.enqueue(request);
 
