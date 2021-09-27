@@ -18,7 +18,9 @@ import android.widget.Toast;
 import com.example.madmini.R;
 import com.example.madmini.it20122096.RcvAdapters.Quotation_Rcv_Adapter;
 import com.example.madmini.it20122096.models.Quotations;
+import com.example.madmini.it20122614.CartActivity;
 import com.example.madmini.it20122614.PaymentActivity;
+import com.example.madmini.it20122614.ProfileActivity;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -56,6 +58,20 @@ public class BulidPc extends AppCompatActivity implements CreateDialog.DialogLis
             public void onClick(View view) {
                 startActivity(new Intent(getApplicationContext(), DashBoard.class));
 
+            }
+        });
+        cart_btn=(ImageButton)findViewById(R.id.cart_btn);
+        cart_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), CartActivity.class));
+            }
+        });
+        profile_btn_2=(ImageButton)findViewById(R.id.profile_btn_2);
+        profile_btn_2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), ProfileActivity.class));
             }
         });
 

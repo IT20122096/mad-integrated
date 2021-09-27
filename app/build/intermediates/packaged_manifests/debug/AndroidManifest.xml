@@ -25,6 +25,19 @@
         android:testOnly="true"
         android:theme="@style/Theme.MadMini" >
         <activity
+            android:name="com.example.madmini.it20122096.DisplayQuotationList"
+            android:exported="true"
+            android:parentActivityName="com.example.madmini.it20122096.Admin_Panel" >
+
+            <!--
+            The meta-data tag is required if you support API level 15
+            and lower
+            -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".it20122096.Admin_Panel" />
+        </activity>
+        <activity
             android:name="com.example.madmini.it20250638.ViewActivity"
             android:exported="true" />
         <activity
@@ -41,7 +54,17 @@
             android:exported="true" />
         <activity
             android:name="com.example.madmini.it20122096.LaptopOrders"
-            android:exported="true" />
+            android:exported="true"
+            android:parentActivityName="com.example.madmini.it20122096.Admin_Panel" >
+
+            <!--
+            The meta-data tag is required if you support API level 15
+            and lower
+            -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".it20122096.Admin_Panel" />
+        </activity>
         <activity
             android:name="com.example.madmini.it20122614.EditProfileActivity"
             android:exported="true" />
@@ -84,7 +107,7 @@
         <activity
             android:name="com.example.madmini.it20122096.PartOrders"
             android:exported="true"
-            android:parentActivityName="com.example.madmini.it20122096.Pc_Build_Orders" >
+            android:parentActivityName="com.example.madmini.it20122096.Admin_Panel" >
 
             <!--
             The meta-data tag is required if you support API level 15
@@ -92,12 +115,12 @@
             -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".it20122096.Pc_Build_Orders" />
+                android:value=".it20122096.Admin_Panel" />
         </activity>
         <activity
             android:name="com.example.madmini.it20122096.Order_Details"
             android:exported="true"
-            android:parentActivityName="com.example.madmini.it20122096.Pc_Build_Orders" >
+            android:parentActivityName="com.example.madmini.it20122096.Admin_Panel" >
 
             <!--
             The meta-data tag is required if you support API level 15
@@ -105,7 +128,7 @@
             -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".it20122096.Pc_Build_Orders" />
+                android:value=".it20122096.Admin_Panel" />
         </activity>
         <activity
             android:name="com.example.madmini.it20122096.Pc_Build_Orders"

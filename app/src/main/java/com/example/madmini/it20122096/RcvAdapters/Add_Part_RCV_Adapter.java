@@ -49,7 +49,7 @@ public class Add_Part_RCV_Adapter extends FirebaseRecyclerAdapter<SparePart,Add_
 
         max_quantity=model.getQuantity();
         holder.p_name.setText(model.getName());
-        holder.p_price.setText(model.getUnitPrice()+"");
+        holder.p_price.setText("LKR "+model.getUnitPrice()+"0");
         holder.p_quantity.setText(count+"");
         holder.inc_btn.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("SetTextI18n")

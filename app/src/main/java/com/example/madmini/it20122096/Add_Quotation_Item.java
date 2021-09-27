@@ -1,5 +1,6 @@
 package com.example.madmini.it20122096;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -9,12 +10,15 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.ImageButton;
 import android.widget.Spinner;
 
 import com.example.madmini.R;
 import com.example.madmini.it20115302.spare_parts_comp.SparePart;
 import com.example.madmini.it20122096.RcvAdapters.Add_Part_RCV_Adapter;
 import com.example.madmini.it20122096.models.Parts;
+import com.example.madmini.it20122614.CartActivity;
+import com.example.madmini.it20122614.ProfileActivity;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -25,11 +29,38 @@ public class Add_Quotation_Item extends AppCompatActivity implements AdapterView
     String q_id;
     Add_Part_RCV_Adapter rcv_adapter;
     RecyclerView part_rcv;
-
+    ImageButton home_btn,cart_btn,profile_btn_2;
+    ArrayAdapter <CharSequence> arrayAdapter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.it20122096_activity_add_quotation_item);
+        ActionBar actionBar=getSupportActionBar();
+        getSupportActionBar().setTitle("Add Items ");
+
+        //Home Button Navigation
+        home_btn=(ImageButton) findViewById(R.id.home_btn);
+        home_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), DashBoard.class));
+
+            }
+        });
+        cart_btn=(ImageButton)findViewById(R.id.cart_btn);
+        cart_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), CartActivity.class));
+            }
+        });
+        profile_btn_2=(ImageButton)findViewById(R.id.profile_btn_2);
+        profile_btn_2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), ProfileActivity.class));
+            }
+        });
 
         cat_spinner1=(Spinner) findViewById(R.id.cat_spinner1);
         cat_spinner1.setOnItemSelectedListener(this);
@@ -40,8 +71,8 @@ public class Add_Quotation_Item extends AppCompatActivity implements AdapterView
         q_id=intent.getStringExtra("id");
         System.out.println(q_id);
 
-        String[] categories =getResources().getStringArray(R.array.menu_items_labels);
-        ArrayAdapter arrayAdapter =new ArrayAdapter(this, android.R.layout.simple_spinner_item,categories);
+
+        arrayAdapter =ArrayAdapter.createFromResource(this,R.array.menu_items_labels,R.layout.it20122096_spinner_text);
         arrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         cat_spinner1.setAdapter(arrayAdapter);
 

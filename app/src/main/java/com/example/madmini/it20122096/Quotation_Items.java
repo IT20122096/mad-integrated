@@ -11,12 +11,15 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import com.example.madmini.R;
 import com.example.madmini.it20122096.RcvAdapters.Quotation_item_Rcv_Adapter;
 import com.example.madmini.it20122096.models.Q_Items;
 import com.example.madmini.it20122096.models.Quotations;
+import com.example.madmini.it20122614.CartActivity;
+import com.example.madmini.it20122614.ProfileActivity;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
@@ -32,6 +35,7 @@ public class Quotation_Items extends AppCompatActivity {
     RecyclerView item_rcv;
     Button q_add;
     Quotation_item_Rcv_Adapter rcv_adapter;
+    ImageButton home_btn,cart_btn,profile_btn_2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,6 +43,30 @@ public class Quotation_Items extends AppCompatActivity {
         setContentView(R.layout.it20122096_activity_quotation_items);
         ActionBar actionBar= getSupportActionBar();
         actionBar.setTitle("Quotation Items");
+
+        //Home Button Navigation
+        home_btn=(ImageButton) findViewById(R.id.home_btn);
+        home_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), DashBoard.class));
+
+            }
+        });
+        cart_btn=(ImageButton)findViewById(R.id.cart_btn);
+        cart_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), CartActivity.class));
+            }
+        });
+        profile_btn_2=(ImageButton)findViewById(R.id.profile_btn_2);
+        profile_btn_2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), ProfileActivity.class));
+            }
+        });
 
         q_total=(TextView)findViewById(R.id.q_tot);
         item_rcv=(RecyclerView)findViewById(R.id.item_rcv);
@@ -80,7 +108,7 @@ public class Quotation_Items extends AppCompatActivity {
                             double quantity=Double.parseDouble(snapshot.child("quantity").getValue().toString());
                             tot=tot+(price*quantity);
                             String total= Double.toString(tot);
-                            q_total.setText(total);
+                            q_total.setText("LKR "+total+"0");
                     }
 
                     @Override

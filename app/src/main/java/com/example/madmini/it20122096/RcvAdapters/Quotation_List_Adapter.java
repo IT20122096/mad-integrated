@@ -17,7 +17,7 @@ import com.firebase.ui.database.FirebaseRecyclerOptions;
 public class Quotation_List_Adapter extends FirebaseRecyclerAdapter<Q_Items,Quotation_List_Adapter.viewHolder> {
 
 
-    double total;
+    double total=0;
     public Quotation_List_Adapter(@NonNull FirebaseRecyclerOptions<Q_Items> options) {
         super(options);
 

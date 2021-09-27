@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.annotation.SuppressLint;
@@ -15,6 +16,7 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -22,7 +24,13 @@ import android.widget.Toast;
 import com.bumptech.glide.Glide;
 import com.example.madmini.R;
 import com.example.madmini.it20122096.RcvAdapters.Quotation_List_Adapter;
+import com.example.madmini.it20122096.RcvAdapters.Quotation_item_Rcv_Adapter;
+import com.example.madmini.it20122096.models.Q_Items;
+import com.example.madmini.it20122096.models.Quotations;
+import com.example.madmini.it20122614.CartActivity;
 import com.example.madmini.it20122614.Payment;
+import com.example.madmini.it20122614.ProfileActivity;
+import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -40,6 +48,7 @@ public class Order_Details extends AppCompatActivity {
     Quotation_List_Adapter quotation_list_adapter;
     RecyclerView q_items;
     TextView tot;
+    ImageButton home_btn,cart_btn,profile_btn_2;
 
     @SuppressLint("SetTextI18n")
     @Override
@@ -48,6 +57,30 @@ public class Order_Details extends AppCompatActivity {
         setContentView(R.layout.it20122096_activity_oreder_details);
         ActionBar actionBar =getSupportActionBar();
         getSupportActionBar().setTitle("Order Details");
+
+        //Home Button Navigation
+        home_btn=(ImageButton) findViewById(R.id.home_btn);
+        home_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), DashBoard.class));
+
+            }
+        });
+        cart_btn=(ImageButton)findViewById(R.id.cart_btn);
+        cart_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), CartActivity.class));
+            }
+        });
+        profile_btn_2=(ImageButton)findViewById(R.id.profile_btn_2);
+        profile_btn_2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), ProfileActivity.class));
+            }
+        });
 
         od_name=(TextView)findViewById(R.id.od_name);
         od_address=(TextView)findViewById(R.id.od_address);
@@ -76,7 +109,7 @@ public class Order_Details extends AppCompatActivity {
                     }
                 });
 
-        od_amount.setText(Double.toString(payment.getPrices())+"0");
+        od_amount.setText("LKR "+Double.toString( payment.getPrices())+"0");
         od_date.setText(payment.getDate());
         q_id=payment.getQuotation_id();
 
@@ -115,70 +148,30 @@ public class Order_Details extends AppCompatActivity {
 
 
         down_btn=(Button) findViewById(R.id.down_btn);
-        System.out.println(payment.getItemType());
+
         if(payment.getItemType().toString().equals("pc build")){
 
             down_btn.setVisibility(down_btn.VISIBLE);
         }
         else {
-            down_btn.setVisibility(down_btn.GONE);
+            down_btn.setVisibility(down_btn.INVISIBLE);
         }
 
         down_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                final DialogPlus dialogPlus =DialogPlus.newDialog(Order_Details.this)
-                        .setContentHolder(new ViewHolder(R.layout.it20122096_display_quotation))
-                        .setExpanded(true,1300)
-                        .create();
-                View view2 =dialogPlus.getHolderView();
-
-
-
-
-                tot=(TextView)view2.findViewById(R.id.q_tot_view);
-                FirebaseDatabase.getInstance().getReference().child("Quotation").orderByChild("id").equalTo(q_id)
-                        .addChildEventListener(new ChildEventListener() {
-                            @Override
-                            public void onChildAdded(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
-                                tot.setText("Total : LKR."+snapshot.child("total").getValue().toString()+".00");
-                                System.out.println(q_id);
-
-
-                            }
-
-                            @Override
-                            public void onChildChanged(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
-
-                            }
-
-                            @Override
-                            public void onChildRemoved(@NonNull DataSnapshot snapshot) {
-
-                            }
-
-                            @Override
-                            public void onChildMoved(@NonNull DataSnapshot snapshot, @Nullable String previousChildName) {
-
-                            }
-
-                            @Override
-                            public void onCancelled(@NonNull DatabaseError error) {
-
-                            }
-                        });
-
-                dialogPlus.show();
-
-
+                startActivity(new Intent(Order_Details.this,DisplayQuotationList.class).putExtra("payment",payment));
 
             }
+
         });
 
 
 
 
     }
+
+
 
     private void downloadImage(Uri uri) {
         DownloadManager downloadManager =(DownloadManager) getSystemService(Context.DOWNLOAD_SERVICE);

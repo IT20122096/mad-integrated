@@ -264,8 +264,16 @@
         "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\it20122096_slip_display_dialogplus.xml"
     },
     {
+        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_it20122096_spinner_text.xml.flat",
+        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\it20122096_spinner_text.xml"
+    },
+    {
         "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_launcher_foreground.png.flat",
         "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\layout_it20122096_activity_display_quotation_list.xml.flat",
+        "source": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\src\\main\\res\\layout\\it20122096_activity_display_quotation_list.xml"
     },
     {
         "merged": "C:\\Users\\chama\\AndroidStudioProjects\\MadMini\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_webp_net_resizeimage1.jpg.flat",

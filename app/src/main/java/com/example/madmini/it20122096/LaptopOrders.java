@@ -7,16 +7,21 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageButton;
 
 import com.example.madmini.R;
 import com.example.madmini.it20122096.RcvAdapters.Build_Order_Rcv_Adapter;
+import com.example.madmini.it20122614.CartActivity;
 import com.example.madmini.it20122614.Payment;
+import com.example.madmini.it20122614.ProfileActivity;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.firebase.database.FirebaseDatabase;
 
 public class LaptopOrders extends AppCompatActivity implements Build_Order_Rcv_Adapter.selectedOrder {
     RecyclerView order_rcv;
     Build_Order_Rcv_Adapter rcv_adapter;
+    ImageButton home_btn,cart_btn,profile_btn_2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +31,30 @@ public class LaptopOrders extends AppCompatActivity implements Build_Order_Rcv_A
 
         ActionBar actionBar =getSupportActionBar();
         getSupportActionBar().setTitle("Laptop Orders");
+
+        //Home Button Navigation
+        home_btn=(ImageButton) findViewById(R.id.home_btn);
+        home_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), DashBoard.class));
+
+            }
+        });
+        cart_btn=(ImageButton)findViewById(R.id.cart_btn);
+        cart_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), CartActivity.class));
+            }
+        });
+        profile_btn_2=(ImageButton)findViewById(R.id.profile_btn_2);
+        profile_btn_2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), ProfileActivity.class));
+            }
+        });
 
         order_rcv=(RecyclerView) findViewById(R.id.order_rcv3);
         order_rcv.setLayoutManager(new LinearLayoutManager(this));
