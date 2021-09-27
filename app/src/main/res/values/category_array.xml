@@ -8,9 +8,9 @@
     </string-array>
 
     <string-array name="menu_items_labels" >
-        <item ><FONT COLOR="#2636cc"><b>ROG</b></FONT></item>
-        <item ><FONT COLOR="#006600"><b>Inbox</b></FONT></item>
-        <item ><FONT COLOR="#006600"><b>Sent Items</b></FONT></item>
-        <item ><FONT COLOR="#006600"><b>Filing History</b></FONT></item>
+        <item ><FONT COLOR="#2636cc"><b>Asus</b></FONT></item>
+        <item ><FONT COLOR="#006600"><b>SSD 980 pro gen</b></FONT></item>
+        <item ><FONT COLOR="#006600"><b>ROG</b></FONT></item>
+        <item ><FONT COLOR="#006600"><b>RTX 3080</b></FONT></item>
     </string-array>
 </resources>
