@@ -25,6 +25,18 @@
         android:testOnly="true"
         android:theme="@style/Theme.MadMini" >
         <activity
+            android:name="com.example.madmini.it20250638.ViewActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.madmini.it20250638.EditLaptopActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.madmini.it20250638.DisplayLaptopActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.madmini.it20250638.AddLaptopActivity"
+            android:exported="true" />
+        <activity
             android:name="com.example.madmini.it20115302.spare_parts_comp.AddCartSparePart"
             android:exported="true" />
         <activity

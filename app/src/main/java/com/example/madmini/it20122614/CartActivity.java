@@ -17,11 +17,14 @@ import android.widget.TextView;
 
 import com.example.madmini.R;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.Query;
 
 public class CartActivity extends AppCompatActivity implements CartAdapter.SelectItem {
     private CartAdapter adapter;
@@ -36,8 +39,8 @@ public class CartActivity extends AppCompatActivity implements CartAdapter.Selec
 
     CartAdapter cartAdapter;
 //    private Order order;
-//    FirebaseAuth firebaseAuth;
-//    FirebaseUser firebaseUser;
+    FirebaseAuth firebaseAuth;
+    FirebaseUser firebaseUser;
 
 
     @Override
@@ -54,16 +57,17 @@ public class CartActivity extends AppCompatActivity implements CartAdapter.Selec
 //        totalQty = findViewById(R.id.textViewFeeId);
 //        checkOut = findViewById(R.id.buttonCheckOut);
 //        order = new Order();
-//        firebaseAuth = FirebaseAuth.getInstance();
-//        firebaseUser = firebaseAuth.getCurrentUser();
-//        String uid = firebaseUser.getUid();
-        mBase = FirebaseDatabase.getInstance().getReference().child("Cart");
+        firebaseAuth = FirebaseAuth.getInstance();
+        firebaseUser = firebaseAuth.getCurrentUser();
+        String uid = firebaseUser.getUid();
+        Query query = FirebaseDatabase.getInstance().getReference().child("Cart").orderByChild("userName").equalTo(uid);
+
 
 //        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
 
-        FirebaseRecyclerOptions<ItemOrder> options = new FirebaseRecyclerOptions.Builder<ItemOrder>().setQuery(mBase, ItemOrder.class).build();
+        FirebaseRecyclerOptions<ItemOrder> options = new FirebaseRecyclerOptions.Builder<ItemOrder>().setQuery(query, ItemOrder.class).build();
         adapter = new CartAdapter(options, getApplicationContext(), this::selectItems);
         recyclerView.setAdapter(adapter);
 

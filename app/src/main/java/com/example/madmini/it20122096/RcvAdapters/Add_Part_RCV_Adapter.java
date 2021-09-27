@@ -17,6 +17,7 @@ import androidx.annotation.RequiresApi;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.madmini.R;
+import com.example.madmini.it20115302.spare_parts_comp.SparePart;
 import com.example.madmini.it20122096.models.Parts;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
@@ -27,14 +28,15 @@ import com.google.firebase.database.FirebaseDatabase;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Add_Part_RCV_Adapter extends FirebaseRecyclerAdapter<Parts,Add_Part_RCV_Adapter.viewHolder> {
+public class Add_Part_RCV_Adapter extends FirebaseRecyclerAdapter<SparePart,Add_Part_RCV_Adapter.viewHolder> {
 
     int count=1;
     int max_quantity;
     String q_id;
     Context context;
+    String part_id;
 
-    public Add_Part_RCV_Adapter(@NonNull FirebaseRecyclerOptions<Parts> options, String q_id, Context context) {
+    public Add_Part_RCV_Adapter(@NonNull FirebaseRecyclerOptions<SparePart> options, String q_id, Context context) {
         super(options);
         this.q_id=q_id;
         this.context=context;
@@ -42,12 +44,12 @@ public class Add_Part_RCV_Adapter extends FirebaseRecyclerAdapter<Parts,Add_Part
 
     @SuppressLint({"ResourceType", "SetTextI18n"})
     @Override
-    protected void onBindViewHolder(@NonNull viewHolder holder, final int position, @NonNull final Parts model) {
+    protected void onBindViewHolder(@NonNull viewHolder holder, final int position, @NonNull final SparePart model) {
+
 
         max_quantity=model.getQuantity();
-
         holder.p_name.setText(model.getName());
-        holder.p_price.setText(model.getPrice().toString());
+        holder.p_price.setText(model.getUnitPrice()+"");
         holder.p_quantity.setText(count+"");
         holder.inc_btn.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("SetTextI18n")
@@ -83,11 +85,11 @@ public class Add_Part_RCV_Adapter extends FirebaseRecyclerAdapter<Parts,Add_Part
             public void onClick(View view) {
 
                 Map<String,Object> map= new HashMap<>();
-                map.put("part_id",model.getId());
+
                 map.put("quotation_id",q_id);
                 map.put("name",model.getName());
                 map.put("quantity",count);
-                map.put("price",model.getPrice());
+                map.put("price",model.getUnitPrice());
 
                 FirebaseDatabase.getInstance().getReference()
                         .child("Quotation_Items").push()

@@ -116,9 +116,12 @@ public class Order_Details extends AppCompatActivity {
 
         down_btn=(Button) findViewById(R.id.down_btn);
         System.out.println(payment.getItemType());
-        if(payment.getItemType().toString()=="pc build"){
+        if(payment.getItemType().toString().equals("pc build")){
 
             down_btn.setVisibility(down_btn.VISIBLE);
+        }
+        else {
+            down_btn.setVisibility(down_btn.GONE);
         }
 
         down_btn.setOnClickListener(new View.OnClickListener() {

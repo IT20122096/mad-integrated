@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#181C24"
+    tools:context=".it20250638.DisplayLaptopActivity">
+
+    <Button
+        android:id="@+id/btnAddCart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/orange_500"
+        android:text="Add To Cart"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Vga"
+        app:layout_constraintVertical_bias="0.813" />
+
+    <TextView
+        android:id="@+id/Vga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Intel® Iris® Xe Graphics"
+        android:gravity="center"
+        android:textColor="@color/White_2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14"
+        app:layout_constraintVertical_bias="0.07"
+        tools:layout_editor_absoluteX="48dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="3 Years Warrnty"
+        android:textColor="@color/White_2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Other"
+        app:layout_constraintVertical_bias="0.061"
+        tools:layout_editor_absoluteX="48dp" />
+
+    <TextView
+        android:id="@+id/Hdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2 TB HDD"
+        android:textColor="@color/White_2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Ssd"
+        app:layout_constraintVertical_bias="0.048"
+        tools:layout_editor_absoluteX="48dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/Ram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="8 GB DDR4-3200 SDRAM "
+        android:textColor="@color/White_2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Hdd"
+        app:layout_constraintVertical_bias="0.03"
+        tools:layout_editor_absoluteX="48dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/Other"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Fingerprint sensor "
+        android:textColor="@color/White_2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Ram"
+        app:layout_constraintVertical_bias="0.044"
+        tools:layout_editor_absoluteX="48dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/Ssd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="512 GB PCIe® NVMe™ Value M.2 SSD "
+        android:textColor="@color/White_2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Processor"
+        app:layout_constraintVertical_bias="0.019"
+        tools:layout_editor_absoluteX="48dp"
+        android:gravity="center"
+        />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="297dp"
+        android:layout_height="172dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/lap_sample" />
+
+    <TextView
+        android:id="@+id/BrandName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="HP ProBook 440 G8 14 Inch HD"
+        android:textColor="@color/White_2"
+        android:textColorHint="@color/White_2"
+        android:textColorLink="@color/White_2"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/Price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="LKR155,000.00"
+        android:textColor="@color/White_2"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BrandName"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/Processor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="11th Gen Intel Core i5-1135G7 "
+        android:gravity="center"
+        android:textColor="@color/White_2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Price"
+        app:layout_constraintVertical_bias="0.057" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="410dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="4dp"
+        android:background="@color/orange_500"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        android:gravity="center"
+        >
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_marginBottom="16dp"
+            android:background="@android:color/transparent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:srcCompat="@drawable/icons8_home_page_48" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="180dp"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/icons8_shopping_cart" />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="340dp"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/icons8_profile"
+            android:gravity="center"
+            />
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

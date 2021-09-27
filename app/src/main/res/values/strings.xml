@@ -89,4 +89,26 @@
     <string name="button2ConfimPaymentId">confirm</string>
     <string name="buttonAdmin">Admin</string>
     <string name="quan">Qty :</string>
+
+
+    <string name="Brandproj">Enter Brand Name</string>
+    <string name="brandkk">Enter Brand Name</string>
+    <string name="savebut">Save</string>
+    <string name="pricekk">Enter Your price</string>
+    <string name="ssdl">SSD</string>
+    <string name="hdd">HDD</string>
+    <string name="ramm">RAM</string>
+    <string name="process">Processer</string>
+    <string name="Brand_name">Brand Name</string>
+    <string name="otherr">Other</string>
+    <string name="but1">Save</string>
+    <string name="uploadd">Upload images</string>
+    <string name="discardf">discard</string>
+    <string name="add_a_new_laptop">Add a new laptop</string>
+    <string name="VGAa">VGA</string>
+    <string name="deletee">Delete</string>
+    <string name="msi_i7_10th_gen_gaming">MSI i7 10th Gen Gaming</string>
+    <string name="lkr_275_000">LKR 275,000</string>
+    <string name="acer_i5_3rd_gen">Acer i5 3rd GEN</string>
+    <string name="lkr_45_000">LKR 45,000</string>
 </resources>

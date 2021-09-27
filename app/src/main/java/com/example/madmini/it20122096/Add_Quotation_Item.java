@@ -12,6 +12,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 
 import com.example.madmini.R;
+import com.example.madmini.it20115302.spare_parts_comp.SparePart;
 import com.example.madmini.it20122096.RcvAdapters.Add_Part_RCV_Adapter;
 import com.example.madmini.it20122096.models.Parts;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
@@ -57,10 +58,10 @@ public class Add_Quotation_Item extends AppCompatActivity implements AdapterView
         if(adapterView.getId() ==R.id.cat_spinner1){
             cat=adapterView.getItemAtPosition(i).toString();
         }
-        FirebaseRecyclerOptions<Parts> options =
-                new FirebaseRecyclerOptions.Builder<Parts>()
-                        .setQuery(FirebaseDatabase.getInstance().getReference().child("Parts").orderByChild("category").equalTo(cat)
-                                , Parts.class)
+        FirebaseRecyclerOptions<SparePart> options =
+                new FirebaseRecyclerOptions.Builder<SparePart>()
+                        .setQuery(FirebaseDatabase.getInstance().getReference().child("SparePart").orderByChild("model").equalTo(cat)
+                                ,SparePart.class)
                         .build();
         rcv_adapter= new Add_Part_RCV_Adapter(options,q_id,getApplicationContext());
         part_rcv.setAdapter(rcv_adapter);

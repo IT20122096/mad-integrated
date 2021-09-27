@@ -12,4 +12,10 @@
     <color name="gray">#7A373434</color>
     <color name="red">#F44336</color>
     <color name="Blue_Black">#181c24</color>
+    <color name="orange_500">#ff9404</color>
+    <color name="white_1">#F7F5F4</color>
+    <color name="White_2">#F8F5F5</color>
+    <color name="WHITE3">#FFFCFB</color>
+    <color name="blue_shade_1">#0e2433</color>
+    <color name="blue_shade_2">#1C4966</color>
 </resources>

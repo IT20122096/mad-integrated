@@ -11,6 +11,8 @@ import android.widget.Button;
 import com.example.madmini.R;
 import com.example.madmini.it20115302.spare_parts_comp.AddSparePart;
 import com.example.madmini.it20115302.spare_parts_comp.ViewAllSpareParts;
+import com.example.madmini.it20250638.AddLaptopActivity;
+import com.example.madmini.it20250638.ViewActivity;
 
 public class Admin_Panel extends AppCompatActivity {
 
@@ -63,6 +65,23 @@ public class Admin_Panel extends AppCompatActivity {
                 startActivity(new Intent(Admin_Panel.this, LaptopOrders.class));
             }
         });
+
+        lap_add_btn=(Button) findViewById(R.id.lap_add_btn);
+        lap_add_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Admin_Panel.this, AddLaptopActivity.class));
+            }
+        });
+
+        lap_edit_btn=(Button) findViewById(R.id.lap_edit_btn);
+        lap_edit_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Admin_Panel.this, ViewActivity.class));
+            }
+        });
+
 
 
 

@@ -74,23 +74,23 @@ public class PaymentActivity extends AppCompatActivity {
         uId = firebaseUser.getUid().toString();
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
         nowDate = simpleDateFormat.format(new Date());
-        System.out.println(nowDate);
-        System.out.println("============================================================");
 
         Intent intent = getIntent();
-        if(intent.getExtras()!=null){
-            ItemOrder itemOrder = (ItemOrder) intent.getSerializableExtra("ordered");
+        ItemOrder itemOrder = (ItemOrder) intent.getSerializableExtra("ordered");
+        Quotations quotations = (Quotations) intent.getSerializableExtra("quotation");
+        if(intent.getExtras()!=null && itemOrder!=null){
+
 
             itemType = itemOrder.getItemType();
             price = itemOrder.getPrice();
             iId = itemOrder.getItemId();
 
+       }
+        else if(intent.getExtras()!=null && quotations!=null){
+            quotation_id = quotations.getId();
+            itemType="pc build";
+            price=(int)quotations.getTotal();
         }
-//        Intent intent1 =getIntent();
-//        Quotations quotations = (Quotations) intent1.getSerializableExtra("quotation");
-//        quotation_id = quotations.getId();
-//        itemType="pc build";
-//        price=(int)quotations.getTotal();
 
 
         attach.setOnClickListener(new View.OnClickListener() {

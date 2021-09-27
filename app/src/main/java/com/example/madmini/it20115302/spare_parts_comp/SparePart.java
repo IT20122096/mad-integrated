@@ -15,18 +15,21 @@ public class SparePart implements Serializable {
     private String model;
     private double unitPrice;
     private String desc;
+    @Exclude
+    private int quantity;
 
     // default constructor
     public SparePart() {
     }
 
     // overload constructor
-    public SparePart(String name, String brand, String model, double unitPrice, String desc) {
+    public SparePart(String name, String brand, String model, double unitPrice, String desc,int quantity) {
         this.name = name;
         this.brand = brand;
         this.model = model;
         this.unitPrice = unitPrice;
         this.desc = desc;
+        this.quantity=quantity;
     }
 
     public String getKey() {
@@ -75,5 +78,13 @@ public class SparePart implements Serializable {
 
     public void setDesc(String desc) {
         this.desc = desc;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
     }
 }

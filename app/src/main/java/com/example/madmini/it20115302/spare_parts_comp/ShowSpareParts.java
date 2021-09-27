@@ -22,6 +22,7 @@ import com.example.madmini.R;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.firebase.ui.database.SnapshotParser;
+import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 
 public class ShowSpareParts extends AppCompatActivity {
@@ -90,8 +91,8 @@ public class ShowSpareParts extends AppCompatActivity {
                                 public void onClick(DialogInterface dialog, int whichButton) {
 
                                     Cart cart = new Cart();
-                                    // TODO: ask from user management guy
-                                    cart.setUserName("demo_user");
+
+                                    cart.setUserName(FirebaseAuth.getInstance().getCurrentUser().getUid().toString());
                                     cart.setItemId(sparePart.getKey());
                                     cart.setItemType("spare part");
                                     cart.setPrice(sparePart.getUnitPrice());

@@ -22,6 +22,7 @@ public class AddSparePart extends AppCompatActivity {
     private EditText editModel;
     private EditText editPrice;
     private EditText editDesc;
+    private EditText editQuantity;
 
     private Button btnSubmit;
     private Button btnCancel;
@@ -43,6 +44,7 @@ public class AddSparePart extends AppCompatActivity {
         editDesc = findViewById(R.id.edit_desc);
         btnSubmit = findViewById(R.id.btn_add);
         btnCancel = findViewById(R.id.btn_cancel_add);
+        editQuantity=findViewById(R.id.edit_quan);
 
         DAOSpareParts dao = new DAOSpareParts();
 
@@ -61,7 +63,8 @@ public class AddSparePart extends AppCompatActivity {
                         editBrand.getText().toString(),
                         editModel.getText().toString(),
                         Double.parseDouble(editPrice.getText().toString()),
-                        editDesc.getText().toString());
+                        editDesc.getText().toString(),
+                        Integer.parseInt(editQuantity.getText().toString()));
 
                 dao.add(sparePart).addOnSuccessListener( success -> {
                     Toast.makeText(this, "Spare Part Inserted", Toast.LENGTH_SHORT).show();

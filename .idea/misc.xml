@@ -22,6 +22,7 @@
         <entry key="..\:/Users/chama/AndroidStudioProjects/MadMini/app/src/main/res/layout/activity_show_spare_parts.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/chama/AndroidStudioProjects/MadMini/app/src/main/res/layout/activity_update_spare_part.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/chama/AndroidStudioProjects/MadMini/app/src/main/res/layout/activity_view_all_spare_parts.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/chama/AndroidStudioProjects/MadMini/app/src/main/res/layout/bottom_sheet_laptop.xml" value="0.2477355072463768" />
         <entry key="..\:/Users/chama/AndroidStudioProjects/MadMini/app/src/main/res/layout/create_dialog.xml" value="0.21981981981981982" />
         <entry key="..\:/Users/chama/AndroidStudioProjects/MadMini/app/src/main/res/layout/create_slip_dialog.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/chama/AndroidStudioProjects/MadMini/app/src/main/res/layout/display_image.xml" value="0.25416666666666665" />
@@ -51,6 +52,10 @@
         <entry key="..\:/Users/chama/AndroidStudioProjects/MadMini/app/src/main/res/layout/it20122614_activity_payment.xml" value="0.21920289855072464" />
         <entry key="..\:/Users/chama/AndroidStudioProjects/MadMini/app/src/main/res/layout/it20122614_activity_profile.xml" value="0.21920289855072464" />
         <entry key="..\:/Users/chama/AndroidStudioProjects/MadMini/app/src/main/res/layout/it20122614_activity_register.xml" value="0.21920289855072464" />
+        <entry key="..\:/Users/chama/AndroidStudioProjects/MadMini/app/src/main/res/layout/it20250638_activity_display_laptop.xml" value="0.2477355072463768" />
+        <entry key="..\:/Users/chama/AndroidStudioProjects/MadMini/app/src/main/res/layout/it20250638_activity_edit_laptop.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/chama/AndroidStudioProjects/MadMini/app/src/main/res/layout/it20250639_activity_add_laptop.xml" value="0.2477355072463768" />
+        <entry key="..\:/Users/chama/AndroidStudioProjects/MadMini/app/src/main/res/layout/it20250639_activity_view.xml" value="0.2477355072463768" />
         <entry key="..\:/Users/chama/AndroidStudioProjects/MadMini/app/src/main/res/layout/layout_item_spare_part.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/chama/AndroidStudioProjects/MadMini/app/src/main/res/layout/layout_item_spare_part_client.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/chama/AndroidStudioProjects/MadMini/app/src/main/res/layout/order.xml" value="0.21920289855072464" />
@@ -60,6 +65,7 @@
         <entry key="..\:/Users/chama/AndroidStudioProjects/MadMini/app/src/main/res/layout/single_quotation_list_item.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/chama/AndroidStudioProjects/MadMini/app/src/main/res/layout/single_quotation_rcv.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/chama/AndroidStudioProjects/MadMini/app/src/main/res/layout/slip_display_dialogplus.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/chama/AndroidStudioProjects/MadMini/app/src/main/res/menu/bottom_navi.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/chama/AndroidStudioProjects/MadMini/app/src/main/res/menu/option_spare_parts_menu.xml" value="0.25416666666666665" />
       </map>
     </option>
